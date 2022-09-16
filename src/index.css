@@ -17,11 +17,15 @@ code {
 }
 
 .background {
-  height: 33pc;
+  height: 45pc;
   background-image: url("./NewArt.jpeg");
 }
 
 .vertical {
   border-left: 6px solid rgb(255, 255, 255);
   height: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  #homelogo{width: 22pc}
 }
