@@ -26,6 +26,35 @@ code {
   height: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 955px) {
   #homelogo{width: 22pc}
+}
+
+@media screen and (max-width:955px) {
+  #media1{margin-right: 50px}
+}
+.maindiv{
+  height: 62pc
+}
+@media screen and (max-width:1279px) {
+  .maindiv{
+    height: 80pc
+  }
+}
+
+
+@media screen and (max-width:780px) {
+  .maindiv{
+    height: 110pc
+  }
+}
+
+/* aboout us navbar media query */
+@media screen and (max-width:688px) {
+  .listingbut{
+    display: inline;
+  }
+  .listed{
+    display: none;
+  }
 }

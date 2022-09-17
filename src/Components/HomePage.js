@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function HomePage() {
     return (
-        <div className='maindiv' style={{"height":"62pc"}}>
+        <div className='maindiv'>
         <div className="background">
             <div className='block list-none h-24'>
                 <li className='flex float-right  m-4 inline-block'><a href="https://wa.me/message/FQEMMDOIGPGPJ1"  target="_blank"><img src="/images/WhatsApp.png" alt="" srchSet="" className='h-7 align-middle hover:cursor-pointer' style={{ "marginTop": "14px" }} /></a></li>
