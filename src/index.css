@@ -48,13 +48,28 @@ code {
     height: 110pc
   }
 }
-
+#listbut{
+  display: none;
+}
 /* aboout us navbar media query */
 @media screen and (max-width:688px) {
-  .listingbut{
-    display: inline;
-  }
   .listed{
-    display: none;
+    display: block;
   }
+  #mainhead{
+    height: 12pc;
+  }
+  #listbut{
+    display: block;
+  }
+}
+
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+
+}
+.dropdown2:hover .dropdown-menu2 {
+  display: block;
+  
 }

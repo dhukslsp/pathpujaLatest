@@ -4,9 +4,9 @@ function About() {
   return (
     <div>
       <Navbar />
-      <p className='font-extrabold text-3xl mt-6 text-center'>ABOUT US</p>
-      <div className='flex flex-wrap-reverse'>
-      <div className='media1 m-12' style = {{"box-shadow": "12px 12px 2px 1px silver","width":"56pc","marginTop":"33px"}}>
+      <p className='font-extrabold text-3xl pt-6 text-center text-black bg-white'>ABOUT US</p>
+      <div className='flex flex-wrap-reverse bg-white'>
+      <div className='media1 m-12 text-black' style = {{"box-shadow": "12px 12px 2px 1px silver","width":"56pc","marginTop":"33px"}}>
       <p className='pb-1'>
       Pathpuja has been started with an intention to bring back the long forgotten traditions of performing pujas before starting anything auspicious. To help people make realize again that blessings of the god are as important as creating a great and a successful career in life.</p>
       <p className='pb-1'>
