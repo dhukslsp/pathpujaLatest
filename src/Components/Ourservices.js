@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 export default class Ourservices extends Component {
     render() {
         return (
-            <div className='bg-white'>
+            <div className='bg-white' style = {{"userSelect":"none"}}>
                 <Navbar />
                 <p className='text-2xl text-black font-bold text-center pt-1'>Choose Your Pooja From here</p>
                 <div className='flex flex-wrap sm:flex-col lg:flex-row justify-center mt-8'>
