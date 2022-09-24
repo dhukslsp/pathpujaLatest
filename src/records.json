@@ -1,0 +1,61 @@
+[
+    {
+        "name":"Rudrabhishek puja",
+        "Desc":"NA",
+        "Benifit1":"It increases positivity in the family.",
+        "Benifit2":"It removes all the evil eyes, doshas from your family’s life.",
+        "Benifit3":"It helps get rid off sudden accidents and health issues.",
+        "Benifit4":"It blesses family with health, peace and optimism.",
+        "Basic":"NA",
+        "Regular":{
+            "Subpuja":"Eka Rudrabhishek",
+            "hours":"1:30 hous",
+            "Pandit":"1-2 Pandit ji",
+            "Prices":"3500"
+        },
+        "Premium":{
+            "Subpuja":"Laghu Rudrabhishek Puja",
+            "hours":"6:00 hous",
+            "Pandit":"11+1 Pandit ji",
+            "Prices":"41000"
+        },
+        "Standard":{
+            "Subpuja":"Eka dash Rudraabhishek (Namak Chamak)",
+            "hours":"2 hous",
+            "Pandit":"2 Pandit ji",
+            "Prices":"5800"
+        }
+    },
+    {
+        "name":"Satyanarayana Puja",
+        "Desc":"NA",
+        "Benifit1":"Satyanarayan Pooja helps us to maintain positivity in the house.",
+        "Benifit2":"Satyanarayan Pooja remove all the negative energies that are trying to enter the house.",
+        "Benifit3":"Satyanarayan Pooja  bring peace and harmony in the family.",
+        "Benifit4":"Satyanarayan Pooja blesses us with health, wealth and happiness.",
+        "Basic":{
+            "Subpuja":"NA",
+            "hours":"2 hour",
+            "Pandit":"1 Pandit ji",
+            "Prices":"3500"
+        },
+        "Regular":{
+            "Subpuja":"Eka Rudrabhishek",
+            "hours":"1:30 hour",
+            "Pandit":"1-2 Pandit ji",
+            "Prices":"3500"
+        },
+        "Premium":{
+            "Subpuja":"Laghu Rudrabhishek Puja",
+            "hours":"6:00 hour",
+            "Pandit":"11+1 Pandit ji",
+            "Prices":"41000"
+        },
+        "Standard":{
+            "Subpuja":"(Vishnu Shashtnaam Chanting)",
+            "hours":"4 hour",
+            "Pandit":"2 Pandit ji",
+            "Prices":"5800"
+        }
+    }
+]

@@ -1,10 +1,9 @@
 import Contextcreat from './Contextcreat';
-import React from 'react';
-
-const Notestate = (props)=>{
-    const myval  = 'This String'
-    return(
-        <Contextcreat.Provider value = {{myval}}>
+import React,{useState} from 'react';
+const Notestate = (props) => {
+   const [pujaname,changepujaname] = useState();
+    return (
+        <Contextcreat.Provider value={{ pujaname,changepujaname}}>
             {props.children}
         </Contextcreat.Provider>
     )

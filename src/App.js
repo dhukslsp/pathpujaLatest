@@ -7,6 +7,7 @@ import Services from './Components/Services';
 import Ourservices from './Components/Ourservices';
 import ContextText from './Components/ContextText';
 import Notestate from './Context/Notestate';
+import Detailing from './Components/Detailing';
 function App() {
   return (
     <div className='m-0 p-0'>
@@ -16,6 +17,7 @@ function App() {
           <Route path='/About' element={<About />} />
           <Route path='/Services' element={<Ourservices />} />
           <Route path='/AboutService' element={<Services />} />
+          <Route path='/Detailing' element={<Detailing/>} />
           <Route path='/my' element={<ContextText />} />
         </Routes>
         <Footer />
