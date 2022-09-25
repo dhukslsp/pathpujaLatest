@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 export default function ContextText() {
-  const [first, setnotes] = useState();
+  const [first, setnotes] = useState([]);
   useEffect(() => {
     const fetchallnotes = async () => {
       const response = await fetch(`http://localhost:2001/api/Retrieve/myroute1/Rudrabhishek puja`, {
@@ -15,7 +15,7 @@ export default function ContextText() {
   
   return (
     <div className='text-black'>
-        {first.map((elm)=>{return elm.name})}
+        {first.map((elm)=>{return <div>elm.name elm.</div>})}
     </div>
   )
 }
