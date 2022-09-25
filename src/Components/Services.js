@@ -12,12 +12,26 @@ function Services() {
                 Benifit2 = {elm.Benifit2} 
                 Benifit3={elm.Benifit3} 
                 Benifit4 = {elm.Benifit4} 
-                basic = {elm.Basic} 
+                Basic = {elm.Basic} 
                 panditsB = {elm.Basic.Pandit}
                 pricesB = {elm.Basic.Prices}
                 subpujaB = {elm.Basic.Subpuja}
                 hoursB = {elm.Basic.hours}
-                
+                Regular = {elm.Regular} 
+                panditsR = {elm.Regular.Pandit}
+                pricesR = {elm.Regular.Prices}
+                subpujaR = {elm.Regular.Subpuja}
+                hoursR = {elm.Regular.hours}
+                Premium = {elm.Premium} 
+                panditsP = {elm.Premium.Pandit}
+                pricesP = {elm.Premium.Prices}
+                subpujaP = {elm.Premium.Subpuja}
+                hoursP = {elm.Premium.hours}
+                Standard = {elm.Standard} 
+                panditsS = {elm.Standard.Pandit}
+                pricesS = {elm.Standard.Prices}
+                subpujaS = {elm.Standard.Subpuja}
+                hoursS = {elm.Standard.hours}
                 />))}
         </div>
     )
