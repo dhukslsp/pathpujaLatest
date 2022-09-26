@@ -1,16 +1,22 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import Navbar from './Navbar'
+import Contextcreat from "../Context/Contextcreat"
 function Detailing() {
+    const fetch = useContext(Contextcreat);
+    const { Packagedesc } = fetch;
     return (
         <div className='bg-white'>
             <Navbar />
             <div className='text-black flex flex-col lg:ml-40 lg:mr-40 pl-4 pr-4 sm:ml-1 sm:mr-1'>
                 <div className=''>
-                    <p className='text-4xl font-extrabold m-2'>Puja name</p>
-                    <p className='m-2'>Desc1</p>
-                    <p className='m-2'>Desc2</p>
-                    <p className='m-2'>Desc3</p>
-                    <p className='m-2'>Desc4</p>
+                    <ul className='list-disc'>
+                        <p className='text-4xl font-extrabold mt-2'>{Packagedesc.pujaname}</p>
+                        <li className='m-2 ml-4'>{Packagedesc.packageName}</li>
+                        <li className='m-2 ml-4'>{Packagedesc.pandits}</li>
+                        <li className='m-2 ml-4'>{Packagedesc.pices}</li>
+                        <li className='m-2 ml-4'>{Packagedesc.subpuja}</li>
+                        <li className='m-2 ml-4'>{Packagedesc.hours}</li>
+                    </ul>
                 </div>
                 <p className='ml-2 mt-2 mb-8 text-bold'>
                     FIll out the Form to Proceed further
