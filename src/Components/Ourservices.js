@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 function Ourservices() {
 
     const mycontext = useContext(ContextCreat);
-    const { changepujaname } = mycontext;
+    const { fetchallnotes } = mycontext;
     return (
         <div className='bg-white' style={{ "userSelect": "none" }}>
             <Navbar />
@@ -16,8 +16,8 @@ function Ourservices() {
                         <a>Puja</a>
                         <div className="hidden h-auto flex pt-4" id="dropdown-menu">
                             <ul className="block w-full bg-white shadow px-12 py-8 hover:text-black list-decimal">
-                                <li className="py-1" onClick={changepujaname("Rudrabhishek puja")}><Link to="/AboutService" className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Rudrabhishek Puja</Link></li>
-                                <li className="py-1" onClick={changepujaname("Satyanarayana Puja")}><Link to = "/AboutService" className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Satyanarayana Puja</Link></li>
+                                <li className="py-1" onClick={()=>{fetchallnotes("Rudrabhishek puja")}}><Link to="/AboutService" className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Rudrabhishek Puja</Link></li>
+                                <li className="py-1" onClick={()=>{fetchallnotes("Satyanarayana Puja")}}><Link to = "/AboutService" className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Satyanarayana Puja</Link></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Aayusha Homa</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Navgraha Homa</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Gandmool Nakshatra Puja</a></li>
