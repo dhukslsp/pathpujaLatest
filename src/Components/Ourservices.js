@@ -7,7 +7,7 @@ function Ourservices() {
     const mycontext = useContext(ContextCreat);
     const { fetchallnotes } = mycontext;
     return (
-        <div className='bg-white' style={{ "userSelect": "none" }}>
+        <div style={{ "userSelect": "none"  ,"background":"#fef3ea"}}>
             <Navbar />
             <p className='text-2xl text-black font-bold text-center pt-1'>Choose Your Pooja From here</p>
             <div className='flex flex-wrap sm:flex-col lg:flex-row justify-center mt-8'>
@@ -15,7 +15,7 @@ function Ourservices() {
                     <li className="dropdown lg:inline sm:block px-4 text-black hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide p-7" >
                         <a>Puja</a>
                         <div className="hidden h-auto flex pt-4" id="dropdown-menu">
-                            <ul className="block w-full bg-white shadow px-12 py-8 hover:text-black list-decimal">
+                            <ul className="block w-full shadow px-12 py-8 hover:text-black list-decimal">
                                 <li className="py-1" onClick={()=>{fetchallnotes("Rudrabhishek puja")}}><Link to="/AboutService" className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Rudrabhishek Puja</Link></li>
                                 <li className="py-1" onClick={()=>{fetchallnotes("Satyanarayana Puja")}}><Link to = "/AboutService" className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Satyanarayana Puja</Link></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Aayusha Homa</a></li>
@@ -59,7 +59,7 @@ function Ourservices() {
                     <li className="dropdown2 lg:inline sm:block px-4 text-black hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide">
                         <a>JAAP</a>
                         <div className="hidden h-auto flex pt-4" id="dropdown-menu2">
-                            <ul className="block w-full bg-white shadow px-12 py-8 list-disc">
+                            <ul className="block w-full shadow px-12 py-8 list-disc">
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Graha Shanti Jaap</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Gyatri mantra Jaap</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Mahamrityunjaya Jaap</a></li>
@@ -72,7 +72,7 @@ function Ourservices() {
                     <li className="dropdown3 lg:inline sm:block px-4 text-black hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide">
                         <a>Path/Havan</a>
                         <div className="hidden h-auto flex pt-4" id="dropdown-menu3">
-                            <ul className="block w-full bg-white shadow px-12 py-8">
+                            <ul className="block w-full shadow px-12 py-8">
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Maha Ganpati homa </a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Durga Saptshati/Parayana/Chandi Homa/Durga Homa</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Lakshmi Narsimha Homa</a></li>
@@ -88,7 +88,7 @@ function Ourservices() {
                     <li className="dropdown4 lg:inline sm:block px-4 text-black hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide">
                         <a>Festival Puja</a>
                         <div className="hidden h-auto flex pt-4" id="dropdown-menu4">
-                            <ul className="block w-full bg-white shadow px-12 py-8">
+                            <ul className="block w-full shadow px-12 py-8">
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Navratri Kalash Sthapna</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Dhanteras Puja</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Diwali Puja</a></li>
@@ -103,7 +103,7 @@ function Ourservices() {
                     <li className="dropdown5 lg:inline sm:block px-4 text-black hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide p-7">
                         <a>Shanti Puja</a>
                         <div className="hidden h-auto flex pt-4" id="dropdown-menu5">
-                            <ul className="block w-full bg-white shadow px-12 py-8">
+                            <ul className="block w-full shadow px-12 py-8">
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Vastu Shanti Puja</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Kumbh / Vishnu Vivah</a></li>
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Tulsi Vivah</a></li>
@@ -122,7 +122,7 @@ function Ourservices() {
                     <li className="dropdown6 lg:inline sm:block px-4 text-black hover:text-purple-700 cursor-pointer font-bold text-base uppercase tracking-wide p-7">
                         <a>PITRA Puja</a>
                         <div className="hidden h-auto pt-4" id="dropdown-menu6">
-                            <ul className="block w-full bg-white shadow px-12 py-8">
+                            <ul className="block w-full shadow px-12 py-8">
                                 <li className="py-1"><a className="block text-black font-bold text-base uppercase hover:text-purple-700 cursor-pointer">Narayana Bali</a></li>
                             </ul>
                         </div>
