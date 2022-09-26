@@ -17,8 +17,12 @@ code {
 }
 
 .background {
-  height: 45pc;
-  background-image: url("./NewArt.jpeg");
+  height: 100%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("../public/Images/beautifyIMG/BG2.jpg");
 }
 
 .vertical {
@@ -27,42 +31,53 @@ code {
 }
 
 @media screen and (max-width: 955px) {
-  #homelogo{width: 22pc}
+  #homelogo {
+    width: 22pc
+  }
 }
 
 @media screen and (max-width:955px) {
-  #media1{margin-right: 50px}
+  #media1 {
+    margin-right: 50px
+  }
 }
-.maindiv{
+
+.maindiv {
   height: 62pc
 }
+
 @media screen and (max-width:1279px) {
-  .maindiv{
+  .maindiv {
     height: 80pc
   }
 }
 
 
 @media screen and (max-width:780px) {
-  .maindiv{
+  .maindiv {
     height: 110pc
   }
 }
-#listbut{
+
+#listbut {
   display: none;
 }
+
 /* aboout us navbar media query */
 @media screen and (max-width:688px) {
-  .listed{
+  .listed {
     display: block;
   }
-  #mainhead{
+
+  #mainhead {
     height: 12pc;
   }
-  #listbut{
+
+  #listbut {
     display: block;
   }
 }
+
 /* 
 
 .dropdown:hover .dropdown-menu {
@@ -70,12 +85,12 @@ code {
 
 } */
 @media screen and (max-width:688px) {
-  .hidden{
+  .hidden {
     display: block;
   }
 }
 
-.descripandDet div{
+.descripandDet div {
   margin-left: auto;
   margin-right: auto;
 }

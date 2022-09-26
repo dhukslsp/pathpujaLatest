@@ -6,20 +6,19 @@ function HomePage() {
             <div className="background">
                 <div className='block list-none h-24'>
                     <li className='flex float-right  m-4 inline-block'><a href="https://wa.me/message/FQEMMDOIGPGPJ1" target="_blank"><img src="/images/WhatsApp.png" alt="" srchSet="" className='h-7 align-middle hover:cursor-pointer' style={{ "marginTop": "14px" }} /></a></li>
-                    <li className='float-right  m-4 duration-700 align-text-bottom font-bold rounded-lg p-5 text-white hover:bg-white hover:text-black hover:cursor-pointer inline-block'><Link to="/About">About Us</Link></li>
-                    <li className='float-right  m-4 duration-700 align-text-bottom font-bold rounded-lg p-5 text-white hover:bg-white hover:text-black hover:cursor-pointer inline-block'><Link to="/Services">Services</Link></li>
-                    <li className='float-right  m-4 duration-700 align-text-bottom font-bold rounded-lg p-5 text-white hover:bg-white hover:text-black hover:cursor-pointer inline-block'>Home</li>
+                    <li className='float-right  m-4 duration-700 align-text-bottom font-bold rounded-lg p-5 text-black hover:bg-white hover:text-black hover:cursor-pointer inline-block'><Link to="/About">About Us</Link></li>
+                    <li className='float-right  m-4 duration-700 align-text-bottom font-bold rounded-lg p-5 text-black hover:bg-white hover:text-black hover:cursor-pointer inline-block'><Link to="/Services">Services</Link></li>
+                    <li className='float-right  m-4 duration-700 align-text-bottom font-bold rounded-lg p-5 text-black hover:bg-white hover:text-black hover:cursor-pointer inline-block'>Home</li>
                 </div>
                 <div className='block h-12'>
-                    <img src="./images/Pathpujalogo.png" className='h-26 w-90 ml-auto mr-auto rounded-7xl' id="homelogo" />
-                    <div className='text-white text-center text-4xl mt-6'> There is always room for <p className='mt-4'>PATHPUJA</p> </div>
-                    <div className='text-white text-center text-xl mt-4'> Line to be next </div>
+                    <div className='text-black text-center text-4xl mt-6'> There is always room for <p className='mt-4'>PATHPUJA</p> </div>
+                    <div className='text-black text-center text-xl mt-4'> Line to be next </div>
                     <div className='flex justify-center mb-14'>
                         <div className="flex justify-center flex-col flex-shrink" style={{ "width": "40pc"}}>
                             <form className="flex items-center" style={{"height":"3pc"}}>
                             <select className="select select-bordered mr-0">
                                 <option disabled selected>Choose your City</option>
-                                <option>Star Wars</option>
+                                <option>Delhi NCR</option>
                             </select>
                                 <label htmlFor="simple-search" className="sr-only">Search</label>
                                 <div className="relative w-full" style={{ "width": "800%" }}>
@@ -33,22 +32,21 @@ function HomePage() {
                                     <span className="sr-only">Search</span>
                                 </button>
                             </form>
-
                             <button type="button" className="ml-auto mr-auto w-1/3 inline-block mt-4 px-6 py-2.5 bg-blue-600 text-white font-lg  font-extrabold text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">View All Services</button>
                         </div>
                     </div>
                     <div className='flex justify-center flex-wrap'>
-                        <div className='h-12 m-7 p-7 flex flex-nowrap flex-col justify-center ' style={{ "border": "2px solid black", "height": "18pc", "borderRadius": "3pc", "backgroundColor": "#F1E9DC" }}>
+                        <div className='h-12 m-7 p-7 flex flex-nowrap flex-col justify-center ' style={{ "height": "18pc" }}>
                             <img src="/images/indian-pandit-standing-in-welcome-pose-2775571-2319304.webp" alt="" srchSet="" className='h-60' />
                             <p className='font-bold text-center text-2xl text-black'>350+ Pandit Jis</p>
                         </div>
                         <div class="w-5 h-14 border-black" style={{ "background": "black", "height": "20pc", "width": "1px" }}></div>
-                        <div className='h-12 m-7 p-10 flex flex-nowrap flex-col justify-center' style={{ "border": "2px solid black", "height": "18pc", "borderRadius": "3pc", "backgroundColor": "#F1E9DC" }}>
+                        <div className='h-12 m-7 p-10 flex flex-nowrap flex-col justify-center' style={{ "height": "18pc" }}>
                             <img src="/images/ganesha-agni-puja-homa-hinduism-yajna-upanayana-varalakshmi-vratam-png-clipart-removebg-preview.png" alt="" srchSet="" className='h-60' />
                             <p className='font-bold text-center text-2xl mt-0 text-black'>500+ Puja Performed</p>
                         </div>
                         <div class="w-5 h-14 border-black" style={{ "background": "black", "height": "20pc", "width": "1px" }}></div>
-                        <div className='h-12 m-7 flex flex-nowrap flex-col justify-center' style={{ "border": "2px solid black", "height": "18pc", "borderRadius": "3pc", "backgroundColor": "#F1E9DC" }}>
+                        <div className='h-12 m-7 flex flex-nowrap flex-col justify-center' style={{ "height": "18pc" }}>
                             <img src="/images/png-clipart-mahalaya-hindu-holiday-symbol-kalasha.png" alt="" srchSet="" className='h-60' />
                             <p className='font-bold text-center text-2xl text-black'>100+ Types of Puja</p>
                         </div>
