@@ -32,7 +32,7 @@ function HomePage() {
                                     <span className="sr-only">Search</span>
                                 </button>
                             </form>
-                            <button type="button" className="ml-auto mr-auto w-1/3 inline-block mt-4 px-6 py-2.5 bg-blue-600 text-white font-lg  font-extrabold text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">View All Services</button>
+                            <button type="button"  className="ml-auto mr-auto w-1/3 inline-block mt-4 px-6 py-2.5 bg-blue-600 text-white font-lg  font-extrabold text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"><Link to = "/Services">View All Services</Link></button>
                         </div>
                     </div>
                     <div className='flex justify-center flex-wrap'>

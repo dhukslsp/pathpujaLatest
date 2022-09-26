@@ -2,68 +2,90 @@ import React from 'react'
 import Navbar from './Navbar'
 function Detailing() {
     return (
-        <div style={{ "background": "#fef3ea" }}>
+        <div className='bg-white'>
             <Navbar />
+            <div className='text-black flex flex-col lg:ml-40 lg:mr-40 pl-4 pr-4 sm:ml-1 sm:mr-1'>
+                <div className=''>
+                    <p className='text-4xl font-extrabold m-2'>Puja name</p>
+                    <p className='m-2'>Desc1</p>
+                    <p className='m-2'>Desc2</p>
+                    <p className='m-2'>Desc3</p>
+                    <p className='m-2'>Desc4</p>
+                </div>
+                <p className='ml-2 mt-2 mb-8 text-bold'>
+                    FIll out the Form to Proceed further
+                </p>
+                <div className='ml-auto mr-auto'>
+                    <div className='ml-auto mr-auto grid gap-4 grid-cols-2'>
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                                Name
+                            </label>
+                            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="First Name" />
+                        </div>
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                            </label>
+                            <input className="shadow appearance-none mt-5 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Last Name" />
+                        </div>
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                                Phone no.
+                            </label>
+                            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="tel" placeholder="Phone" pattern='[0-9]{10}' required />
+                        </div>
+                        <div className="mb-4">
+                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                                G-mail
+                            </label>
+                            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="example : pathpuja.com@gmail.com" />
+                        </div>
 
-            <div className='descripandDet flex flex-col justify-center m-10'>
-                <p className='font-bold text-center'>Please Enter your correct details don't make mistake in entering phone no and Email</p>
-                <div>
-                    <div className="form-control pl-10">
-                        <label className="label">
-                            <span className="label-text">Your Name</span>
-                        </label>
-                        <label className="input-group" style={{ "minWidth": "16pc", "height": "5pc", "height": "68px"}}>
-                            <span>Name</span>
-                            <input type="text" placeholder="Name" className="input input-bordered" style={{ "height": "67px","width":"100%" }} />
-                        </label>
                     </div>
-                    <div className="form-control pl-10">
-                        <label className="label">
-                            <span className="label-text">Please Enter your Phone Registered in WhatsApp</span>
+                    <div className="mb-4 w-full">
+                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                            Adress
                         </label>
-                        <label className="input-group" style={{ "minWidth": "16pc", "height": "5pc", "height": "68px"}}>
-                            <span>Phone</span>
-                            <input type="text" placeholder="Enter Your Phone No" className="input input-bordered" style={{ "height": "67px","width":"100%" }} />
-                        </label>
+                        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Street Name, Locality" />
                     </div>
-                    <div className="form-control pl-10">
-                        <label className="label">
-                            <span className="label-text">Enter your Correct Email</span>
-                        </label>
-                        <label className="input-group" style={{ "minWidth": "16pc", "height": "5pc","width":"100%"}}>
-                            <span>Email</span>
-                            <input type="email" placeholder="info@site.com" className="input input-bordered" style={{ "height": "67px" }} />
-                        </label>
+                    <div className='grid  grid-cols-3 gap-4'>
+                        <div className="mb-4 w-full">
+                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                                City
+                            </label>
+                            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="City" />
+                        </div>
+                        <div className="mb-4 w-full">
+                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                                State
+                            </label>
+                            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="State" />
+                        </div>
+                        <div className="mb-4 w-full">
+                            <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                                Pin Code
+                            </label>
+                            <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="number" placeholder="Pin Code" />
+                        </div>
                     </div>
-                    <div className="form-control pl-10">
-                        <label className="label">
-                            <span className="label-text">Your Adress</span>
+                    <p className='inline mb-10'>Puja would be performed on which :</p>
+                    <div className="mb-4 w-full mt-5">
+                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                            Date
                         </label>
-                        <label className="input-group" style={{ "minWidth": "16pc", "height": "5pc", "height": "68px" ,"width":"100%"}}>
-                            <span>Adress</span>
-                            <input type="text" placeholder="Your Adress" className="input input-bordered input-lg w-full max-w-xs" />
-                        </label>
+                        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="date" placeholder="First Name" />
                     </div>
-                    <div className='pl-10 pt-6 font-extrabold'>It's Time to select time</div>
-                    <div className="form-control pl-10">
-                        <label className="label">
-                            <span className="label-text">Date</span>
+                    <div className="mb-4 w-full ">
+
+                        <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
+                            Time
                         </label>
-                        <label className="input-group" style={{ "minWidth": "16pc", "height": "5pc", "height": "68px" }}>
-                            <span>Select Date</span>
-                            <input type="date" placeholder="Select Date" className="input input-bordered input-lg w-full max-w-xs" />
-                        </label>
+                        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="time" placeholder="First Name" />
                     </div>
-                    <div className="form-control pl-10">
-                        <label className="label">
-                            <span className="label-text">Time</span>
-                        </label>
-                        <label className="input-group" style={{ "minWidth": "16pc", "height": "5pc", "height": "68px" }}>
-                            <span>Select time</span>
-                            <input type="time" placeholder="Select Date" className="input input-bordered input-lg w-full max-w-xs" />
-                        </label>
-                        <button className="btn btn-success mtx-10 ml-10 mb-10 mt-10" style={{ "width": "20pc" }}>Click For Getting Payment Details</button>
-                    </div>
+
+                </div>
+                <div className="card-actions justify-center mb-10 mt-7">
+                    <button className="btn btn-primary">Next</button>
                 </div>
             </div>
         </div>
