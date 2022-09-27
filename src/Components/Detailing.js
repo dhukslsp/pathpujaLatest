@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import Contextcreat from "../Context/Contextcreat"
 function Detailing() {
