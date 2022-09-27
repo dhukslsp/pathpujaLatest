@@ -8,6 +8,7 @@ function Services() {
         <div>
             {first.map(elm=>(<Pujadescshow 
                 name = {elm.name} 
+                describe = {elm.Desc}
                 Benifit1 = {elm.Benifit1} 
                 Benifit2 = {elm.Benifit2} 
                 Benifit3={elm.Benifit3} 

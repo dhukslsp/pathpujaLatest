@@ -11,9 +11,9 @@ function Pujadescshow(props) {
                     <img src="/images/1599473318GANESH POOJA.jpg" alt="" className=' p-7 pl-20' style={{ "height": "28pc" }} />
                     <div className='flex flex-col' style={{ "width": "60%" }}>
                         <p className='font-bold text-3xl mt-5 ml-10 text-black'>{props.name}</p>
-                        <div className='flex pl-11 pt-9 flex-wrap text-black'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae laborum ea dolores assumenda, dicta porro nobis neque ipsum fugit, blanditiis veritatis.</div>
-                        <div className='flex p-11 flex-wrap justify-center text-black' >
-                            <div style={{ "width": "40%", "minWidth": "11pc","marginRight":"20px" }}>
+                        <div className='flex pl-11 pt-9 flex-wrap text-black'>{props.describe}</div>
+                        <div className='flex mt-10 mb-10 flex-wrap justify-center text-black' >
+                            <div style={{ "width": "40%", "minWidth": "11pc" }}>
                                 <div className='text-xl font-bold'>Benifits</div>
                                 <p><ul className='list-disc'>
                                     <li>{props.Benifit1}</li>
@@ -23,8 +23,9 @@ function Pujadescshow(props) {
                                 </ul>
                                 </p>
                             </div>
+                            <div className="divider lg:divider-horizontal"></div> 
                             <div style={{ "width": "40%", "minWidth": "11pc", "marginTop": "8px" }}>
-                                <div className='text-xl ml-4 font-bold'>Our Promice</div>
+                                <div className='text-xl font-bold'>Our Promice</div>
                                 <p><ul className='list-disc'>
                                     <li>Timely availability of quality services</li>
                                     <li>Cost effective prices</li>

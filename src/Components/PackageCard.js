@@ -4,9 +4,9 @@ import Contextcreat from '../Context/Contextcreat'
 function PackageCard(props) {
     const fetch = useContext(Contextcreat);
     const { chpackage } = fetch;
-    const runner = () => {
+    const runner = async () => {
         const packageObj = {
-            "pujaname":props.pujaname,
+            "pujaname": props.pujaname,
             "packageName": props.package,
             "pandits": props.pandits,
             "pices": props.prices,
@@ -27,7 +27,7 @@ function PackageCard(props) {
                     <li>{props.hours}</li>
                 </ul>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary" onClick={runner}><Link to="/Detailing">Select</Link></button>
+                <Link to="/Detailing"><button className="btn btn-primary" onClick={runner}>Select</button></Link>
                 </div>
             </div>
         </div>
