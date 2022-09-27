@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import Contextcreat from "../Context/Contextcreat"
 function Detailing() {
@@ -13,7 +13,7 @@ function Detailing() {
                         <p className='text-4xl font-extrabold mt-2'>{Packagedesc.pujaname}</p>
                         <li className='m-2 ml-4'>{Packagedesc.packageName}</li>
                         <li className='m-2 ml-4'>{Packagedesc.pandits}</li>
-                        <li className='m-2 ml-4'>{Packagedesc.pices}</li>
+                        <li className='m-2 ml-4'>₹{Packagedesc.pices}</li>
                         <li className='m-2 ml-4'>{Packagedesc.subpuja}</li>
                         <li className='m-2 ml-4'>{Packagedesc.hours}</li>
                     </ul>

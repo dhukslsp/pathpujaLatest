@@ -27,7 +27,7 @@ function PackageCard(props) {
                     <li>{props.hours}</li>
                 </ul>
                 <div className="card-actions justify-end">
-                    <button className="btn btn-primary" onClick={runner}><Link to="Detailing">Select</Link></button>
+                    <button className="btn btn-primary" onClick={runner}><Link to="/Detailing">Select</Link></button>
                 </div>
             </div>
         </div>
