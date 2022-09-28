@@ -1,11 +1,11 @@
-import React, { useContext,useState } from 'react'
+import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import Contextcreat from "../Context/Contextcreat"
 function Detailing() {
     const fetch = useContext(Contextcreat);
-    const { Packagedesc } = fetch;
+    const { Packagedesc,save_CustData } = fetch;
     // adding the usestate 
-    const onCLickDataSend = () =>{
+    const onCLickDataSend = async() =>{
         const datobj = {
             "pujaname":Packagedesc.pujaname,
             "packageName":Packagedesc.packageName,
@@ -25,6 +25,7 @@ function Detailing() {
             "PujaEventTime":document.getElementById("time").value
         }
         console.log(datobj);
+        save_CustData(datobj);
     }
 
     return (
