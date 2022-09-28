@@ -5,6 +5,27 @@ function Detailing() {
     const fetch = useContext(Contextcreat);
     const { Packagedesc } = fetch;
     // adding the usestate 
+    const onCLickDataSend = () =>{
+        const datobj = {
+            "pujaname":Packagedesc.pujaname,
+            "packageName":Packagedesc.packageName,
+            "subpuja":Packagedesc.subpuja,
+            "hours":Packagedesc.hours,
+            "pandits":Packagedesc.pandits,
+            "pices": Packagedesc.pices,
+            "CusfName":document.getElementById("name").value,
+            "CuslName":document.getElementById("fame").value,
+            "CusPhone":document.getElementById("PhoneNo").value,
+            "CusGmail":document.getElementById("Gmail").value,
+            "CusAdress":document.getElementById("Adress").value,
+            "Cuscity":document.getElementById("City").value,
+            "CusState":document.getElementById("State").value,
+            "CusPinCode":document.getElementById("Pincode").value,
+            "PujaEventDate":document.getElementById("Date").value,
+            "PujaEventTime":document.getElementById("time").value
+        }
+        console.log(datobj);
+    }
 
     return (
         <div className='bg-white'>
@@ -34,19 +55,19 @@ function Detailing() {
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                             </label>
-                            <input  className="shadow appearance-none mt-5 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Last Name" />
+                            <input  className="shadow appearance-none mt-5 border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="fame" type="text" placeholder="Last Name" />
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                                 Phone no.
                             </label>
-                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="tel" placeholder="Phone" pattern='[0-9]{10}' required />
+                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="PhoneNo" type="tel" placeholder="Phone" pattern='[0-9]{10}' required />
                         </div>
                         <div className="mb-4">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                                 G-mail
                             </label>
-                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="example : pathpuja.com@gmail.com" />
+                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Gmail" type="text" placeholder="example : pathpuja.com@gmail.com" />
                         </div>
 
                     </div>
@@ -54,26 +75,26 @@ function Detailing() {
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                             Adress
                         </label>
-                        <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="Street Name, Locality" />
+                        <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Adress" type="text" placeholder="Street Name, Locality" />
                     </div>
                     <div className='grid  grid-cols-3 gap-4'>
                         <div className="mb-4 w-full">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                                 City
                             </label>
-                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="City" />
+                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="City" type="text" placeholder="City" />
                         </div>
                         <div className="mb-4 w-full">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                                 State
                             </label>
-                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="State" />
+                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="State" type="text" placeholder="State" />
                         </div>
                         <div className="mb-4 w-full">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                                 Pin Code
                             </label>
-                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="number" placeholder="Pin Code" />
+                            <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Pincode" type="number" placeholder="Pin Code" />
                         </div>
                     </div>
                     <p className='inline mb-10'>Puja would be performed on which :</p>
@@ -81,16 +102,16 @@ function Detailing() {
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                             Date
                         </label>
-                        <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="date" placeholder="First Name" />
+                        <input  className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Date" type="date" placeholder="First Name" />
                     </div>
                     <div className="mb-4 w-full ">
 
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                             Time
                         </label>
-                        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" type="time" placeholder="First Name" />
+                        <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="time" type="time" placeholder="First Name" />
                     </div>
-                    <button className="btn btn-primary">Next</button>
+                    <button className="btn btn-primary" onClick={onCLickDataSend}>Next</button>
                 </div>
             </div>
         </div>
