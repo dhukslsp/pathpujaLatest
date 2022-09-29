@@ -20,14 +20,14 @@ function PackageCard(props) {
         <div className="card w-60 bg-base-100 shadow-xl m-12">
             <div className="card-body bg-white">
                 <h2 className="card-title">{props.package}</h2>
-                <ul className='list-disc'>
-                    <li>{props.pandits}</li>
-                    <li>Price ₹{props.prices}</li>
+                <ul className=''>
                     <li>{props.subpuja}</li>
-                    <li>{props.hours}</li>
+                    <li>Time - {props.hours}</li>
+                    <li>Pandit's - {props.pandits}</li>
+                    <li>Amount - ₹{props.prices}</li>
                 </ul>
                 <div className="card-actions justify-end">
-                <Link to="/Detailing"><button className="btn btn-primary" onClick={runner}>Select</button></Link>
+                    <Link to="/Detailing"><button className="btn btn-primary" onClick={runner}>Select</button></Link>
                 </div>
             </div>
         </div>

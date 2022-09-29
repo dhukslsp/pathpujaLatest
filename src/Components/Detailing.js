@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import Contextcreat from "../Context/Contextcreat"
+import Footer from './Footer';
 function Detailing() {
     const fetch = useContext(Contextcreat);
     const { Packagedesc, save_CustData } = fetch;
@@ -31,7 +32,7 @@ function Detailing() {
     return (
         <div className='bg-white'>
             <Navbar />
-            <div className='text-black flex flex-col lg:ml-40 lg:mr-40 pl-4 pr-4 sm:ml-1 sm:mr-1'>
+            <div className='text-black flex flex-col lg:ml-40 lg:mr-40 pl-4 pr-4 sm:ml-1 sm:mr-1 mb-10'>
                 <p className='text-4xl font-extrabold mt-2'>{Packagedesc.pujaname}</p>
                 <div className=''>
                     <ul className='list-disc'>
@@ -112,7 +113,9 @@ function Detailing() {
                         </label>
                         <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="time" type="time" placeholder="First Name" />
                     </div>
+                    <div className='flex justify-center'>
                     <label htmlFor="my-modal-6" className="btn btn-primary" onClick={onCLickDataSend}>Next</label>
+                    </div>
                 </div>
             </div>
             <input type="checkbox" id="my-modal-6" className="modal-toggle" />
@@ -127,7 +130,8 @@ function Detailing() {
                     </div>
                 </div>
             </div>
-        </div >
+            <Footer />
+        </div>
     )
 }
 export default Detailing
