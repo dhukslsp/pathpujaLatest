@@ -1,10 +1,10 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function HomePage() {
     return (
-        <div className='h-full flex flex-row'>
+        <div className='homequery h-full flex flex-row'>
             <div style={{ "backgroundColor": "#fcf5eb", "height": "50pc" }} className="h-full" >
-                <img src="/images/A2.png" alt="ganesh Ji Image" className="p-0" />
+                <img src="/images/A2.png" alt="ganesh Ji Image" className="p-0"/>
                 <div className='p-10'>
                     <img src="/images/A3.png" alt="there is always room for pathpuja" className="p-0 ml-auto mr-auto mb-10" style = {{"height":"12pc","marginTop":"16px"}}/>
                     <img src="/images/A4.png" alt="Sub Nav" className="p-0" />
@@ -21,15 +21,15 @@ function HomePage() {
                         </div>
                         <div className="flex-none">
                             <ul className="menu menu-horizontal p-0 font-extrabold text-xl">
-                                <li><a>Home</a></li>
-                                <li><a>Services</a></li>
-                                <li><a>About Us</a></li>
+                                <li><Link to = "/">Home</Link></li>
+                                <li><Link to = "/Services">Services</Link></li>
+                                <li><Link to = "/About">About Us</Link></li>
                                 <li><img className='p-2' src="/images/WhatsApp.png" alt="" style={{ "height": "3pc", "paddingTop": "11px" }} /></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <img src="/images/A1.png" alt="ganesh Ji Image" className="p-20" />
+                <img src="/images/A1.png" alt="ganesh Ji Image" className="p-20 pt-5" />
             </div>
         </div>
     )
