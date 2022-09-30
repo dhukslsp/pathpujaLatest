@@ -4,7 +4,7 @@ import Contextcreat from "../Context/Contextcreat"
 import Footer from './Footer';
 function Detailing() {
     const fetch = useContext(Contextcreat);
-    const { Packagedesc, save_CustData } = fetch;
+    const { Packagedesc, cust_sendMail , save_CustData } = fetch;
     // adding the usestate 
     const onCLickDataSend = async () => {
         const datobj = {
@@ -27,6 +27,7 @@ function Detailing() {
         }
         console.log(datobj);
         save_CustData(datobj);
+        cust_sendMail(datobj);
     }
 
     return (
@@ -114,7 +115,7 @@ function Detailing() {
                         <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="time" type="time" placeholder="First Name" />
                     </div>
                     <div className='flex justify-center'>
-                    <label htmlFor="my-modal-6" className="btn btn-primary" onClick={onCLickDataSend}>Next</label>
+                        <label htmlFor="my-modal-6" className="btn btn-primary" onClick={onCLickDataSend}>Next</label>
                     </div>
                 </div>
             </div>
