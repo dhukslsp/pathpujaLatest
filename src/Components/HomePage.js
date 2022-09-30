@@ -20,7 +20,7 @@ function HomePage() {
                         <div className="flex-1">
                         </div>
                         <div className="flex-none">
-                            <ul className="menu menu-horizontal p-0 font-extrabold text-xl">
+                            <ul className="menu menu-horizontal p-0 font-extrabold text-xl text-black">
                                 <li><Link to = "/">Home</Link></li>
                                 <li><Link to = "/Services">Services</Link></li>
                                 <li><Link to = "/About">About Us</Link></li>

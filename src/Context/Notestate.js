@@ -2,6 +2,7 @@ import Contextcreat from './Contextcreat';
 import React, { useState } from 'react';
 const Notestate = (props) => {
     const [first, setnotes] = useState([]);
+    const [custdet, setcustdet] = useState([]);
     const [Packagedesc, chpackage] = useState();
     const fetchallnotes = async (pujaname) => {
         const response = await fetch(`http://localhost:2001/api/Retrieve/myroute1/`+pujaname, {
@@ -31,9 +32,16 @@ const Notestate = (props) => {
             }
           })
           console.log(response.json());
-    }    
+    }
+    const fetchPuja = async() =>{
+        const response = await fetch("http://localhost:2001/api/Fetch/myroute1/fetchdetcUst", {
+            method: 'get',
+          })
+          const newjson = await response.json()
+          setcustdet(newjson);
+    }
     return (
-        <Contextcreat.Provider value={{ first,fetchallnotes,chpackage,Packagedesc,save_CustData,cust_sendMail }}>
+        <Contextcreat.Provider value={{ first,fetchallnotes,chpackage,Packagedesc,save_CustData,cust_sendMail,custdet,fetchPuja }}>
             {props.children}
         </Contextcreat.Provider>
     )

@@ -13,7 +13,7 @@ function Detailing() {
             "subpuja": Packagedesc.subpuja,
             "hours": Packagedesc.hours,
             "pandits": Packagedesc.pandits,
-            "price": Packagedesc.pices,
+            "pices": Packagedesc.pices,
             "CusfName": document.getElementById("name").value,
             "CuslName": document.getElementById("fame").value,
             "CusPhone": document.getElementById("PhoneNo").value,
