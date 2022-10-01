@@ -99,4 +99,17 @@ code {
   .homequery {
     flex-wrap: wrap-reverse;
   }
+  .divElements input{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .divElements button{
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+#homeBut:hover{
+  background-color: #ba4b2f;
+  color: white
 }
