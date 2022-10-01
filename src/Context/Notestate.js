@@ -40,8 +40,22 @@ const Notestate = (props) => {
           const newjson = await response.json()
           setcustdet(newjson);
     }
+    const fetchdCustDet = async(id) =>{
+        const response = await fetch('http://localhost:2001/api/Fetch/myroute1/fetchdetcUst/'+id, {
+            method: 'post',
+          })
+          const newjson = await response.json();
+          const secondres = await fetch("http://localhost:2001/api/send/send_email1", {
+              method: 'POST',
+              body: JSON.stringify(newjson[0]),
+              headers: {
+                  'content-Type': 'application/json'
+              }
+            })
+        console.log(newjson[0].CusPinCode);
+    }
     return (
-        <Contextcreat.Provider value={{ first,fetchallnotes,chpackage,Packagedesc,save_CustData,cust_sendMail,custdet,fetchPuja }}>
+        <Contextcreat.Provider value={{ first,fetchallnotes,chpackage,Packagedesc,save_CustData,cust_sendMail,custdet,fetchPuja,fetchdCustDet }}>
             {props.children}
         </Contextcreat.Provider>
     )

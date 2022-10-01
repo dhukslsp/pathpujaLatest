@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 function About() {
   return (
     <div>
@@ -16,6 +17,7 @@ function About() {
           <img src="/images/Pathpuja.png" alt="" style={{ "height": "20pc" }} className="mr-auto ml-auto" />
         </div>
       </div>
+      <Footer></Footer>
     </div>
   )
 }
