@@ -1,14 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
 import PackageCard from './PackageCard'
+import Footer from './Footer'
 function Pujadescshow(props) {
     return (
         <div>
-            <img src="/images/beautifyIMG/Screenshot 2022-09-19 at 17.25.22.png" alt="Beautify wifth-full" className='w-full' />
+           <img src="/images/beauti.png" alt="Beautify wifth-full" className='w-full' />
             <Navbar />
             <div className='flex flex-col h-full w-full justify-center ' style={{ "backgroundColor": "rgb(254 243 234)" }}>
                 <div className='flex flex-wrap justify-center'>
-                    <img src="/images/1599473318GANESH POOJA.jpg" alt="" className=' p-7 pl-20' style={{ "height": "28pc" }} />
                     <div className='flex flex-col' style={{ "width": "60%" }}>
                         <p className='font-bold text-3xl mt-5 ml-10 text-black'>{props.name}</p>
                         <div className='flex pl-11 pt-9 flex-wrap text-black'>{props.describe}</div>
@@ -50,7 +50,8 @@ function Pujadescshow(props) {
                 </div>
 
             </div>
-            <img src="/images/beautifyIMG/Screenshot 2022-09-19 at 17.26.23.png" alt="" />
+            <img src="/images/S21.png" alt="" />
+            <Footer/>
         </div>
     )
 }
