@@ -5,7 +5,7 @@ function About() {
   return (
     <div>
       <Navbar />
-      <div style = {{"backgroundColor":"#fef3ea"}}>
+      <div style={{ "backgroundColor": "#fef3ea" }}>
         <p className='font-extrabold text-3xl pt-6 text-center text-black'>ABOUT US</p>
         <div className='flex flex-wrap-reverse'>
           <div className='media1 m-12 text-black' style={{ "box-shadow": "12px 12px 2px 1px silver", "width": "56pc", "marginTop": "33px" }}>

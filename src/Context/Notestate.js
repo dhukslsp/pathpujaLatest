@@ -5,7 +5,7 @@ const Notestate = (props) => {
     const [custdet, setcustdet] = useState([]);
     const [Packagedesc, chpackage] = useState();
     const fetchallnotes = async (pujaname) => {
-        const response = await fetch(`http://13.127.34.18:5000/api/Retrieve/myroute1/`+pujaname, {
+        const response = await fetch(`43.205.168.224:5000/api/Retrieve/myroute1/`+pujaname, {
             method: 'GET'
         })
         const newjson = await response.json()
@@ -13,7 +13,7 @@ const Notestate = (props) => {
         //Logic for editing for the client
     }
     const save_CustData =async(obj) =>{
-        const response = await fetch("http://13.127.34.18:5000/api/insert/CustDetSave", {
+        const response = await fetch("43.205.168.224:5000/api/insert/CustDetSave", {
             method: 'POST',
             body: JSON.stringify(obj),
             headers: {
@@ -24,7 +24,7 @@ const Notestate = (props) => {
         console.log(JSON.stringify(obj));
     }
     const cust_sendMail = async(obj) =>{
-        const response = await fetch("http://13.127.34.18:5000/api/send/send_email", {
+        const response = await fetch("43.205.168.224:5000/api/send/send_email", {
             method: 'POST',
             body: JSON.stringify(obj),
             headers: {
@@ -34,18 +34,18 @@ const Notestate = (props) => {
           console.log(response.json());
     }
     const fetchPuja = async() =>{
-        const response = await fetch("http://13.127.34.18:5000/api/Fetch/myroute1/fetchdetcUst", {
+        const response = await fetch("43.205.168.224:5000/api/Fetch/myroute1/fetchdetcUst", {
             method: 'get',
           })
           const newjson = await response.json()
           setcustdet(newjson);
     }
     const fetchdCustDet = async(id) =>{
-        const response = await fetch(' http://13.127.34.18:5000/api/Fetch/myroute1/fetchdetcUst/'+id, {
+        const response = await fetch('43.205.168.224:5000/api/Fetch/myroute1/fetchdetcUst/'+id, {
             method: 'post',
           })
           const newjson = await response.json();
-          const secondres = await fetch("http://13.127.34.18:5000/api/send/send_email1", {
+          const secondres = await fetch("43.205.168.224:5000/api/send/send_email1", {
               method: 'POST',
               body: JSON.stringify(newjson[0]),
               headers: {

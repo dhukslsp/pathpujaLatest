@@ -4,7 +4,7 @@ import Contextcreat from "../Context/Contextcreat"
 import Footer from './Footer';
 function Detailing() {
     const fetch = useContext(Contextcreat);
-    const { Packagedesc, cust_sendMail , save_CustData } = fetch;
+    const { Packagedesc, cust_sendMail, save_CustData } = fetch;
     // adding the usestate 
     const onCLickDataSend = async () => {
         const datobj = {

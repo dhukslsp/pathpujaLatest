@@ -6,7 +6,8 @@ function Services() {
     const {first} = new1;
     return (
         <div>
-            {first.map(elm=>(<Pujadescshow
+            {
+                first.length!==0?first.map(elm=>(<Pujadescshow
                 name = {elm.name} 
                 describe = {elm.Desc}
                 Benifit1 = {elm.Benifit1}
@@ -33,7 +34,7 @@ function Services() {
                 pricesS = {elm.Standard[0].Prices}
                 subpujaS = {elm.Standard[0].Subpuja}
                 hoursS = {elm.Standard[0].hours}
-                />))}
+                />)):<div>Puja Details Not Available</div>}
         </div>
     )
 }

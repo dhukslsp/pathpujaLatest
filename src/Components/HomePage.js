@@ -1,7 +1,7 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
-function HomePage() {
+function HomePage() {    
     return (
         <div>
             <div className='bg-white text-black'>
@@ -45,7 +45,7 @@ function HomePage() {
                             <img src="/images/Sa.png" alt="" style={{ "height": "30pc" }} />
                         </div>
                         <div className='h-full p-10'>
-                            <img src="/images/sb.png" alt="" style={{ "height": "30pc" }} />
+                            <img src="Sb.png" alt="" style={{ "height": "30pc" }} />
                         </div>
                     </div>
                 </div>
@@ -53,29 +53,29 @@ function HomePage() {
                     <p className='text-center pt-7 font-extrabold' style={{ "color": "#ba4b2f", "fontSize": "48px", }}>Services</p>
                     <div className='flex justify-center flex-wrap'>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc1.png" alt="" style={{ "height": "7pc" ,"alignSelf":"center"}} />
+                            <img src="/images/homeing/Sc1.png" alt="" style={{ "height": "7pc", "alignSelf": "center" }} />
                             <p className='mt-7 text-xl font-extrabold'>Easy Booking</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc2.png" alt="" style={{ "height": "7pc" ,"alignSelf":"center"}} />
+                            <img src="/images/homeing/Sc2.png" alt="" style={{ "height": "7pc", "alignSelf": "center" }} />
                             <p className='mt-7 text-xl font-extrabold'>Modest Pricing</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc3.png" alt="" style={{ "height": "7pc" ,"alignSelf":"center"}} />
+                            <img src="/images/homeing/Sc3.png" alt="" style={{ "height": "7pc", "alignSelf": "center" }} />
                             <p className='mt-7 text-xl font-extrabold'>Professional Team</p>
                         </div>
                     </div>
                     <div className='flex justify-center flex-wrap'>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc4.png" alt="" style={{ "height": "7pc" ,"alignSelf":"center"}} />
-                            <p className='mt-7 text-xl font-extrabold'>Full Guidance <br/> and Support</p>
+                            <img src="/images/homeing/Sc4.png" alt="" style={{ "height": "7pc", "alignSelf": "center" }} />
+                            <p className='mt-7 text-xl font-extrabold'>Full Guidance <br /> and Support</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc5.png" alt="" style={{ "height": "7pc" ,"alignSelf":"center"}} />
+                            <img src="/images/homeing/Sc5.png" alt="" style={{ "height": "7pc", "alignSelf": "center" }} />
                             <p className='mt-7 text-xl font-extrabold'>Experienced priest</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "7pc" ,"alignSelf":"center"}} />
+                            <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "7pc", "alignSelf": "center" }} />
                             <p className='mt-7 text-xl font-extrabold width-auto'>Puntuality Promse</p>
                         </div>
                     </div>

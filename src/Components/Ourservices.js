@@ -1,10 +1,9 @@
-import React, { Component, useContext } from 'react'
+import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import ContextCreat from '../Context/Contextcreat';
 import { Link } from "react-router-dom"
 import Footer from './Footer'
 function Ourservices() {
-
     const mycontext = useContext(ContextCreat);
     const { fetchallnotes } = mycontext;
     return (

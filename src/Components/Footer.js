@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <footer className="text-center lg:text-left bg-gray-100 text-gray-600">
@@ -80,7 +80,7 @@ function Footer() {
                             <a href="#!" className="text-gray-600">Shanti Puja</a>
                         </p>
                         <p className="mb-4">
-                            <a href="#!" className="text-gray-600">Pitru-Paksha Puja</a>
+                            <a href="#!" className="text-gray-600"><Link to = "Retailer">Pitru-Paksha Puja</Link></a>
                         </p>
                     </div>
 
