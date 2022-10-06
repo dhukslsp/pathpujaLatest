@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import Contextcreat from "../Context/Contextcreat"
+import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 function Detailing() {
     const fetch = useContext(Contextcreat);
     const { Packagedesc, cust_sendMail, save_CustData } = fetch;
+    const Navigate = useNavigate();
     // adding the usestate 
     const onCLickDataSend = async () => {
         const datobj = {
@@ -26,6 +28,11 @@ function Detailing() {
             "PujaEventTime": document.getElementById("time").value
         }
         console.log(datobj);
+        if(datobj.CusfName == ""|| datobj.CuslName ==""|| datobj.CusPhone == "" || datobj.CusGmail == "" || datobj.CusAdress == "" || datobj.Cuscity == "" || datobj.CusState == ""|| datobj.CusPinCode ==""|| datobj.PujaEventDate ==""|| datobj.PujaEventTime == ""){
+            alert("Please Fill All the credentials");
+            Navigate(-1)
+            return ;
+        }
         save_CustData(datobj);
         cust_sendMail(datobj);
     }
