@@ -7,6 +7,7 @@ import Notestate from './Context/Notestate';
 import Detailing from './Components/Detailing';
 import Services from './Components/Services';
 import Retailer from './Components/Retailer';
+import PageNotFound from './Components/PageNotFound'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/AboutService' element={<Services />} />
           <Route path='/Detailing' element={<Detailing />} />
           <Route path="/Retailer" element={<Retailer />} />
+          <Route path="*" element={<PageNotFound/>}/>
         </Routes>
       </Notestate>
     </div>

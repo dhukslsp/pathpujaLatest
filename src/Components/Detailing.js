@@ -7,7 +7,7 @@ function Detailing() {
     const fetch = useContext(Contextcreat);
     const { Packagedesc, cust_sendMail, save_CustData } = fetch;
     const Navigate = useNavigate();
-    // adding the usestate 
+    // adding the usestate
     const onCLickDataSend = async () => {
         const datobj = {
             "pujaname": Packagedesc.pujaname,
@@ -28,7 +28,7 @@ function Detailing() {
             "PujaEventTime": document.getElementById("time").value
         }
         console.log(datobj);
-        if(datobj.CusfName == ""|| datobj.CuslName ==""|| datobj.CusPhone == "" || datobj.CusGmail == "" || datobj.CusAdress == "" || datobj.Cuscity == "" || datobj.CusState == ""|| datobj.CusPinCode ==""|| datobj.PujaEventDate ==""|| datobj.PujaEventTime == ""){
+        if(datobj.CusfName === ""|| datobj.CuslName ===""|| datobj.CusPhone === "" || datobj.CusGmail === "" || datobj.CusAdress === "" || datobj.Cuscity === "" || datobj.CusState === ""|| datobj.CusPinCode ===""|| datobj.PujaEventDate ===""|| datobj.PujaEventTime === ""){
             alert("Please Fill All the credentials");
             Navigate(-1)
             return ;
@@ -133,9 +133,9 @@ function Detailing() {
                     <p className="py-4">Your filled in credentials have successfully been saved. We would like to thank you for your precious time. In order to confirm your bookings further, we request you to check your inbox as you would have received a mail from our team. The concerned mail mentions the instructions to complete your booking process further smoothly. We gladly welcome you to Pathpuja. Wishing you an amazing and an enriching puja experience.</p>
                     <p className="font-bold">Thank You!</p>
                     <p className="font-bold">Team Pathpuja</p>
-                    <div className="modal-action">
-                        <label htmlFor="my-modal-6" className="btn bg-white text-black hover:bg-black hover:text-white">Ok</label>
-                    </div>
+                      <div className="modal-action" href = "https://mail.google.com/mail/u/0/#inbox">
+                          <label htmlFor="my-modal-6" className="btn bg-white text-black hover:bg-black hover:text-white" ><a href = "https://mail.google.com/mail/u/0/#inbox" target= "_blank">Ok</a></label>
+                      </div>
                 </div>
             </div>
             <Footer />

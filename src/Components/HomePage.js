@@ -12,8 +12,8 @@ function HomePage() {
     return (
         <div>
             <div className='bg-white text-black'>
-                <div className='homequery h-full flex flex-row'>
-                    <div style={{ "backgroundColor": "#fcf5eb", "height": "50pc" }} >
+                <div className='homequery h-auto flex flex-row'>
+                    <div style={{ "backgroundColor": "#fcf5eb", "height": "auto" }} >
                         <img src="/images/A2.png" alt="ganesh Ji Image" className="p-0" />
                         <div className='p-10'>
                             <img src="/images/A3.png" alt="there is always room for pathpuja" className="p-0 ml-auto mr-auto mb-10" style={{ "height": "12pc", "marginTop": "16px" }} />
@@ -89,7 +89,7 @@ function HomePage() {
                                         <li><Link to="/">Home</Link></li>
                                         <li><Link to="/Services">Services</Link></li>
                                         <li><Link to="/About">About Us</Link></li>
-                                        <li><img className='p-2' src="/images/WhatsApp.png" alt="" style={{ "height": "3pc", "paddingTop": "11px" }} /></li>
+                                        <li><a className='mt-auto mb-2' href="https://wa.me/message/FQEMMDOIGPGPJ1" target="_blank"><img className='p-2' src="/images/WhatsApp.png" alt="" style={{ "height": "3pc", "paddingTop": "11px" }} /></a></li>
                                     </ul>
                                 </div>
                             </div>
