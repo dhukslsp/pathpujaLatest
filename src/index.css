@@ -78,12 +78,6 @@ code {
   }
 }
 
-/* 
-
-.dropdown:hover .dropdown-menu {
-  display: block;
-
-} */
 @media screen and (max-width:688px) {
   .hidden {
     display: block;
@@ -99,20 +93,77 @@ code {
   .homequery {
     flex-wrap: wrap-reverse;
   }
-  .divElements input{
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .divElements button{
+
+  .divElements input {
     margin-right: auto;
     margin-left: auto;
   }
 }
 
-#homeBut:hover{
+#homeBut:hover {
   background-color: #ba4b2f;
   color: white
 }
-.newcolor p{
+
+.newcolor p {
   color: #ba4b2f;
+  height: fit-content
+}
+
+.servicesBg1 {
+  background-color: #fef3ea;
+  height: fit-content;
+}
+
+.servicesBg1 div p:hover {
+  border-bottom: 5px solid darkblue;
+  transition-duration: 0.5s;
+}
+
+.classpathstyle img {
+  height: 15pc
+}
+
+.card {
+  width: 14pc;
+  margin: 4px;
+  background: #eec9ab;
+}
+
+.newcolor {
+  height: 38pc;
+}
+
+@media screen and (max-width:525px) {
+  .newcolor {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width:760px) {
+  .classpathstyle a {
+    padding: 0px;
+  }
+
+  .classpathstyle img {
+    height: 8pc
+  }
+
+  .card {
+    margin: 0px;
+    width: 7pc;
+    padding: 1pc;
+  }
+
+  .listclass {
+    justify-content: center;
+  }
+
+  .myservice {
+    height: 90pc;
+  }
+}
+
+.classpathstyle {
+  color: black;
 }
