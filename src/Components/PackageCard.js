@@ -17,8 +17,8 @@ function PackageCard(props) {
     }
 
     return (
-        <div className="card w-60 bg-base-100 shadow-xl m-12">
-            <div className="card-body bg-white">
+        <div className="card1 w-60 bg-base-100 shadow-xl m-12">
+            <div className="card-body bg-white rounded-lg">
                 <h2 className="card-title">{props.package}</h2>
                 <ul className=''>
                     <li>{props.subpuja}</li>

@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.servicesBg1 ul li{
+  padding-left: 12px;
+
+}

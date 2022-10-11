@@ -1,5 +1,250 @@
 [
-    {
-        "Puja":["Rudrabhishek Puja","Satyanarayana Puja","Aayusha Homa","Navgraha Homa","Gandmool Nakshatra Puja","Ganesh Puja","Annaprashan Puja","Namkaran Pujaa","Bhoomi Puja","Griha Pravesh","Vivah","Roka Ceremony","Graha Shanti Puja","Kuber Upasana / Laxmi Kuber homa","Maha Laxmi puja"]
-    }
+    [
+        {
+            "Name": "Rudrabhishek puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Satyanarayana Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Aayusha Homa",
+            "imgLink": ""
+        },
+        {
+            "Name": "Navgraha Homa",
+            "imgLink": ""
+        },
+        {
+            "Name": "Gandmool Nakshatra Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Ganesh Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Annaprashan Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Namkaran Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Bhoomi Pujan",
+            "imgLink": ""
+        },
+        {
+            "Name": "Griha Pravesh",
+            "imgLink": ""
+        },
+        {
+            "Name": "Vivah",
+            "imgLink": ""
+        },
+        {
+            "Name": "Roka Ceremony",
+            "imgLink": ""
+        },
+        {
+            "Name": "Graha Shanti Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Kuber Upasana/Lakshmi Kuber Homa",
+            "imgLink": ""
+        },
+        {
+            "Name": "Maha Lakshmi Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Office Opening Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Saraswati Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Shuddhi Karan Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Vishvakarma Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Janeyu Sanskar (Upnayan)",
+            "imgLink": ""
+        },
+        {
+            "Name": "Maha Shivratri Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Vechile Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Karwa Chauth",
+            "imgLink": ""
+        },
+        {
+            "Name": "Vidhya Arambham",
+            "imgLink": ""
+        },
+        {
+            "Name": "Gauri Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Punsavan Sanskar",
+            "imgLink": ""
+        },
+        {
+            "Name": "Ekadashi Vrat Udayapan Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Sai Sandhya",
+            "imgLink": ""
+        },
+        {
+            "Name": "Chatt Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Daseva-Teravhin Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Lalitha Sasharnam Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Solah Sombar Udapanan Puja",
+            "imgLink": ""
+        },
+        {
+            "Name": "Dhanvantri Homam",
+            "imgLink": ""
+        }
+    ],
+    [
+        {
+            "Name": "Gyatri Mantra",
+            "imgLink": ""
+        },
+        {
+            "Name": "Gyatri mantra Jaap",
+            "imgLink": ""
+        },
+        {
+            "Name": "Mahamrityunjaya Jaap",
+            "imgLink": ""
+        },
+        {
+            "Name": "Santan Gopal Mantra Jaap",
+            "imgLink": ""
+        }
+    ],
+    [
+        {
+            "Name": "Maha Ganpati Homa",
+            "imgLink":""
+        },
+        {
+            "Name": "Durga Saptshati/Parayana/Chandi Homa/Durga Homa",
+            "imgLink":""
+        },
+        {
+            "Name": "Lakshmi Narsimha Homa",
+            "imgLink":""
+        },
+        {
+            "Name": "Akhand Ramayana Paath",
+            "imgLink":""
+        },
+        {
+            "Name": "Sunderkand Paath",
+            "imgLink":""
+        },
+        {
+            "Name": "Garud Puran Paath",
+            "imgLink":""
+        },
+        {
+            "Name": "Hanuman Chalisa",
+            "imgLink":""
+        }
+    ],
+    [
+        {
+            "Name":"Navratri Kalash Sthapna",
+            "imgLink":""
+        },
+        {
+            "Name":"Dhanteras Puja",
+            "imgLink":""
+        },
+        {
+            "Name":"Dussera Puja",
+            "imgLink":""
+        },
+        {
+            "Name":"Hartalika Teej Puja",
+            "imgLink":""
+        },
+        {
+            "Name":"Holika Puja",
+            "imgLink":""
+        }
+    ],
+    [
+        {
+            "Name":"Vastu Shanti Puja",
+            "imgLink":""
+        },
+        {
+            "Name":"Kumbh / Vishnu Vivah",
+            "imgLink":""
+        },
+        {
+            "Name":"Tulsi Vivah",
+            "imgLink":""
+        },
+        {
+            "Name":"Ark Vivah / Male",
+            "imgLink":""
+        },
+        {
+            "Name":"Manglik Shanti",
+            "imgLink":""
+        },
+        {
+            "Name":"Tripad Nakshtra Dosha Shanti Puja",
+            "imgLink":""
+        },
+        {
+            "Name":"Manglik Shanti",
+            "imgLink":""
+        },
+        {
+            "Name":"Manglik Shanti",
+            "imgLink":""
+        },
+        {
+            "Name":"Manglik Shanti",
+            "imgLink":""
+        }
+    ],
+    [
+        {
+            "Name":"Narayana Bali",
+            "imgLink":""
+        }
+    ]
 ]
