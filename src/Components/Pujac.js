@@ -4,14 +4,15 @@ import ContextCreat from '../Context/Contextcreat';
 
 function Pujac(props) {
     const mycontext = useContext(ContextCreat);
-    const { fetchallnotes } = mycontext;
-    const pujaChange = (first) => {
+    const { fetchallnotes,changeimg } = mycontext;
+    const pujaChange = (first,imgLink) => {
         fetchallnotes(first);
+        changeimg(imgLink);
     }
     return (
         <div className='classpathstyle contents mb-6'>
             <Link to = "/AboutService">
-                <a onClick={() => { pujaChange(props.Name1) }} className='card' style={{ "padding": "5px", "marginBottom": "20px", "marginLeft": "5px" }}>
+                <a onClick={() => { pujaChange(props.Name1,props.src) }} className='card' style={{ "padding": "5px", "marginBottom": "20px", "marginLeft": "5px" }}>
                     <div className="searchimg">
                         <img alt="" src={props.src} style={{"width":"-webkit-fill-available"}}/>
                     </div>

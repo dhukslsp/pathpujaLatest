@@ -89,9 +89,29 @@ code {
   margin-right: auto;
 }
 
+.puja {
+  margin-left: 42px;
+}
+
+#pujadesc {
+  width: 50pc
+}
+
 @media screen and (max-width:820px) {
+  .benifitpro{
+    margin-left: 64px;
+  }
+  .puja {
+    margin-left: 4pc;
+  }
+
   .homequery {
     flex-wrap: wrap-reverse;
+  }
+
+  #pujadesc {
+    width: 18pc;
+    padding-left: 4pc;
   }
 
   .divElements input {
@@ -124,6 +144,7 @@ code {
   background-color: #fef3ea;
   height: fit-content;
 }
+
 .classpathstyle img {
   height: 15pc
 }
@@ -193,13 +214,15 @@ code {
   font-weight: 600;
 }
 
-#homeBut{
+#homeBut {
   height: 4pc;
 }
-#desc112{
+
+#desc112 {
   display: none;
 }
-.servicesBg1 ul li{
+
+.servicesBg1 ul li {
   border: 2px solid black;
   margin: 2px;
 }

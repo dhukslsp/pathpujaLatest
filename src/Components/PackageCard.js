@@ -18,7 +18,7 @@ function PackageCard(props) {
 
     return (
         <div className="card1 w-60 bg-base-100 shadow-xl m-12">
-            <div className="card-body bg-white rounded-lg">
+            <div className="card-body bg-white rounded-lg" style = {{"height":"18.5pc"}}>
                 <h2 className="card-title">{props.package}</h2>
                 <ul className=''>
                     <li>{props.subpuja}</li>
