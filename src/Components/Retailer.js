@@ -48,7 +48,7 @@ export default function Retailer() {
                                 <tr>
                                     <td>{elm.CusfName} {elm.CuslName}</td>
                                     <td>
-                                        <div className="card w-full bg-base-100 shadow-xl">
+                                        <div className="bg-base-100 shadow-xl">
                                             <div className="card-body">
                                                 <h2 className="card-title">{elm.pujaname}</h2>
                                                 <p>{elm.CusPhone}</p>

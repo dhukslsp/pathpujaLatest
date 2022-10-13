@@ -10,7 +10,7 @@ function Footer() {
                 <a className="link link-hover font-extrabold text-black">Jaap</a>
                 <a className="link link-hover font-extrabold text-black">Festival Puja</a>
                 <a className="link link-hover font-extrabold text-black">Shanti Puja</a>
-                <a className="link link-hover font-extrabold text-black">Pitru-Paksha Puja</a>
+                <a className="link link-hover font-extrabold text-black"><Link to="/Retailer">Pitru-Paksha Puja</Link></a>
             </div>
             <div>
                 <span className="footer-title font-extrabold text-black">Contact</span>

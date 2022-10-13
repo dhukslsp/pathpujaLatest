@@ -3,13 +3,15 @@ import ContextCreat from '../Context/Contextcreat';
 import { Link } from 'react-router-dom'
 import Pujasea from '../Pujasearch.json'
 import Footer from './Footer'
+import Pujano from '../Pujano.json'
 function HomePage() {
     const [myst1, newstate] = useState("");
     const [ans, changeans] = useState();
     const [filtered,changefiltered] = useState([]);
     const mycontext = useContext(ContextCreat);
-    const { fetchallnotes } = mycontext;
-    const pujaChange = (first) => {
+    const { changeimg,fetchallnotes } = mycontext;
+    const pujaChange = (first,imgLink) => {
+        changeimg(imgLink);
         fetchallnotes(first);
     }
     const filterItem1 = () =>{
@@ -43,7 +45,7 @@ function HomePage() {
                                         <div>
                                             <input autoComplete='off' type="text" onChange={handlechange} id="myinp1" list="input" className='ml-auto lg:mr-2 p-4 mt-8 sm:mr-auto ' style={{ "border": "3px solid #ba4b2f", "color": "#ba4b2f", "backgroundColor": "rgb(252 245 235)", "width": "22pc" }} placeholder="Enter Puja Hawan Etc" />
                                             <div id = "desc112" className='overflow-y-auto overflow-x-hidden' style={{ "width": "20pc", "height": "12pc" }}>
-                                                {filtered.map((elm)=>{return <p className='bg-white w-80 text-black' onClick = {()=>{pujaChange(elm.Name)}}><Link to = "/AboutService">{elm.Name}</Link></p>})}
+                                                {filtered.map((elm)=>{return <p className='bg-white w-80 text-black' onClick = {()=>{pujaChange(elm.Name,elm.imgLink)}}><Link to = "/AboutService">{elm.Name}</Link></p>})}
                                             </div>
                                         </div>
                                     </div>

@@ -46,7 +46,7 @@ function Pujadescshow(props) {
             </div>
             <div style={{ "backgroundColor": "rgb(254 243 234)" }}>
                 <h1 className='text-center text-2xl font-bold text-black'>Packages</h1>
-                <div className="flex justify-center flex-wrap text-black">
+                <div className="flex flex-wrap text-black mt-8 justify-center">
                     {Object.values(props.Basic)[0] !== "N" ? <PackageCard package="Basic" pandits={props.panditsB} prices={props.pricesB} subpuja={props.subpujaB} hours={props.hoursB} pujaname={props.name} /> : <div />}
                     {Object.values(props.Regular)[0] !== "N" ? <PackageCard package="Regular" pandits={props.panditsR} prices={props.pricesR} subpuja={props.subpujaR} hours={props.hoursR} pujaname={props.name} /> : <div />}
                     {Object.values(props.Premium)[0] !== "N" ? <PackageCard package="Premium" pandits={props.panditsP} prices={props.pricesP} subpuja={props.subpujaP} hours={props.hoursP} pujaname={props.name} /> : <div />}
