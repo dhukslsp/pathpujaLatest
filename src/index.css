@@ -30,18 +30,6 @@ code {
   height: 20px;
 }
 
-@media screen and (max-width: 955px) {
-  #homelogo {
-    width: 22pc
-  }
-}
-
-@media screen and (max-width:955px) {
-  #media1 {
-    margin-right: 50px
-  }
-}
-
 .maindiv {
   height: 62pc
 }
@@ -96,8 +84,22 @@ code {
 #pujadesc {
   width: 50pc
 }
-
+#aboutcontainer1121{
+  padding-left: 96px;
+  height: 58pc;
+}
 @media screen and (max-width:820px) {
+  #logoimg{
+    padding-left: 1pc;
+    padding-right: 1.4pc;
+  }
+  #aboutcontainer1121{
+    padding-left: 1pc;
+    height: auto;
+  }
+  .media1{
+    width: 148%;
+  }
   .benifitpro{
     margin-left: 64px;
   }
