@@ -2,15 +2,15 @@
     [
         {
             "Name": "Rudrabhishek puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/Rudrabhishek.jpg"
         },
         {
             "Name": "Satyanarayana Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/SatyanarayanaPuja.jpg"
         },
         {
             "Name": "Aayusha Homa",
-            "imgLink": ""
+            "imgLink": "./PujaList/AyushaHomam.jpg"
         },
         {
             "Name": "Navgraha Homa",
@@ -18,31 +18,31 @@
         },
         {
             "Name": "Gandmool Nakshatra Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/GandmoolNakshatra.jpg"
         },
         {
             "Name": "Ganesh Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/GaneshPuja.jpg"
         },
         {
             "Name": "Annaprashan Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/Annaprashna.jpg"
         },
         {
             "Name": "Namkaran Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/NamkaranPuja.jpg"
         },
         {
             "Name": "Bhoomi Pujan",
-            "imgLink": ""
+            "imgLink": "./PujaList/Bhoomi_Puja.jpg"
         },
         {
             "Name": "Griha Pravesh",
-            "imgLink": ""
+            "imgLink": "./PujaList/GrahaPravesh.jpg"
         },
         {
             "Name": "Vivah",
-            "imgLink": ""
+            "imgLink": "./PujaList/Vivah.jpg"
         },
         {
             "Name": "Roka Ceremony",
@@ -50,23 +50,23 @@
         },
         {
             "Name": "Graha Shanti Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/GraahaShanti_Jaap.jpg"
         },
         {
             "Name": "Kuber Upasana/Lakshmi Kuber Homa",
-            "imgLink": ""
+            "imgLink": "./PujaList/LakshmiHoma.jpg"
         },
         {
             "Name": "Maha Lakshmi Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/Maha_Lakshmi.jpg"
         },
         {
             "Name": "Office Opening Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/officeopening.jpg"
         },
         {
             "Name": "Saraswati Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/Saraaswati_Puja.jpg"
         },
         {
             "Name": "Shuddhi Karan Puja",
@@ -74,27 +74,27 @@
         },
         {
             "Name": "Vishvakarma Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/Vishvakarma.jpg"
         },
         {
             "Name": "Janeyu Sanskar (Upnayan)",
-            "imgLink": ""
+            "imgLink": "./PujaList/Janeyu.jpg"
         },
         {
             "Name": "Maha Shivratri Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/MaheshvatiPuja.jpg"
         },
         {
             "Name": "Vechile Puja",
-            "imgLink": ""
+            "imgLink": "/PujaList/Vehicle_Puja.jpg"
         },
         {
             "Name": "Karwa Chauth",
-            "imgLink": ""
+            "imgLink": "./PujaList/KarwaChauth.jpg"
         },
         {
             "Name": "Vidhya Arambham",
-            "imgLink": ""
+            "imgLink": "./PujaList/Vidyaarambh.jpg"
         },
         {
             "Name": "Gauri Puja",
@@ -154,11 +154,11 @@
     [
         {
             "Name": "Maha Ganpati Homa",
-            "imgLink":""
+            "imgLink":"./PujaList/MahaGanpati.jpg"
         },
         {
             "Name": "Durga Saptshati/Parayana/Chandi Homa/Durga Homa",
-            "imgLink":""
+            "imgLink":"./PujaList/DurgaPuja.jpg"
         },
         {
             "Name": "Lakshmi Narsimha Homa",
@@ -178,13 +178,13 @@
         },
         {
             "Name": "Hanuman Chalisa",
-            "imgLink":""
+            "imgLink":"./PujaList/HanuanChalisa.jpg"
         }
     ],
     [
         {
             "Name":"Navratri Kalash Sthapna",
-            "imgLink":""
+            "imgLink":"./PujaList/Navratri_Kalash.jpg"
         },
         {
             "Name":"Dhanteras Puja",
@@ -206,7 +206,7 @@
     [
         {
             "Name":"Vastu Shanti Puja",
-            "imgLink":""
+            "imgLink":"./PujaList/Vastu__Shanti.jpg"
         },
         {
             "Name":"Kumbh / Vishnu Vivah",
@@ -227,24 +227,12 @@
         {
             "Name":"Tripad Nakshtra Dosha Shanti Puja",
             "imgLink":""
-        },
-        {
-            "Name":"Manglik Shanti",
-            "imgLink":""
-        },
-        {
-            "Name":"Manglik Shanti",
-            "imgLink":""
-        },
-        {
-            "Name":"Manglik Shanti",
-            "imgLink":""
         }
     ],
     [
         {
             "Name":"Narayana Bali",
-            "imgLink":""
+            "imgLink":"./PujaList/Narayana_Bali.jpg"
         }
     ]
 ]

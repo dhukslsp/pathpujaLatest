@@ -124,12 +124,6 @@ code {
   background-color: #fef3ea;
   height: fit-content;
 }
-
-.servicesBg1 div p:hover {
-  border-bottom: 5px solid darkblue;
-  transition-duration: 0.5s;
-}
-
 .classpathstyle img {
   height: 15pc
 }
@@ -204,4 +198,8 @@ code {
 }
 #desc112{
   display: none;
+}
+.servicesBg1 ul li{
+  border: 2px solid black;
+  margin: 2px;
 }

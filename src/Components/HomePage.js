@@ -47,7 +47,7 @@ function HomePage() {
                                             </div>
                                         </div>
                                     </div>
-                                    <button className='p-4 lg:ml-10 mr-auto mt-8' id="homeBut" style={{ "border": "3px solid #ba4b2f", "color": "#ba4b2f", "backgroundColor": "rgb(252 245 235)", "marginBottom": "1pc", "fontSize": "18px" }}><Link to="/Services">View Services</Link></button>                            </div>
+                                    <button className='p-4 lg:ml-10 mr-auto mt-8' id="homeBut" style={{ "border": "3px solid #ba4b2f", "color": "#ba4b2f", "backgroundColor": "rgb(252 245 235)", "marginBottom": "1pc", "fontSize": "18px" }}><Link to="/Services">View Services</Link></button></div>
                             </div>
                         </div>
                     </div>
