@@ -90,7 +90,7 @@
         },
         {
             "Name": "Karwa Chauth",
-            "imgLink": "./PujaList/KarwaChauth.jpg"
+            "imgLink": "./PujaList/Karwa.jpg"
         },
         {
             "Name": "Vidhya Arambham",
@@ -98,7 +98,7 @@
         },
         {
             "Name": "Gauri Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/GauriPuja.jpg"
         },
         {
             "Name": "Punsavan Sanskar",
@@ -106,37 +106,37 @@
         },
         {
             "Name": "Ekadashi Vrat Udayapan Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/EkdshiVirat.jpg"
         },
         {
             "Name": "Sai Sandhya",
-            "imgLink": ""
+            "imgLink": "./PujaList/SaiSamdhya.jpg"
         },
         {
             "Name": "Chatt Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/ChattPuja.jpg"
         },
         {
             "Name": "Daseva-Teravhin Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/DesevaTervhinPuja.jpg"
         },
         {
             "Name": "Lalitha Sasharnam Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/LalitaSitaramPuja.jpg"
         },
         {
             "Name": "Solah Sombar Udapanan Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/SolahSomwarUpdayanPuja.jpg"
         },
         {
             "Name": "Dhanvantri Homam",
-            "imgLink": ""
+            "imgLink": "./PujaList/DhanvaniHomam.jpg"
         }
     ],
     [
         {
             "Name": "Gyatri Mantra",
-            "imgLink": ""
+            "imgLink": "./PujaList/GyatriMantraJaap.jpg"
         },
         {
             "Name": "Gyatri mantra Jaap",
@@ -144,11 +144,11 @@
         },
         {
             "Name": "Mahamrityunjaya Jaap",
-            "imgLink": ""
+            "imgLink": "./PujaList/MahaMritunyaJaap.jpg"
         },
         {
             "Name": "Santan Gopal Mantra Jaap",
-            "imgLink": ""
+            "imgLink": "./PujaList/SantanGopalJapp..jpg"
         }
     ],
     [

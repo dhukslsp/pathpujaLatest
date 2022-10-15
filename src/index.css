@@ -89,6 +89,9 @@ code {
   height: 58pc;
 }
 @media screen and (max-width:820px) {
+  #pujadesc {
+    width: 111%
+  }
   #logoimg{
     padding-left: 1pc;
     padding-right: 1.4pc;

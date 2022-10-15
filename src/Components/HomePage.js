@@ -3,10 +3,8 @@ import ContextCreat from '../Context/Contextcreat';
 import { Link } from 'react-router-dom'
 import Pujasea from '../Pujasearch.json'
 import Footer from './Footer'
-import Pujano from '../Pujano.json'
 function HomePage() {
     const [myst1, newstate] = useState("");
-    const [ans, changeans] = useState();
     const [filtered,changefiltered] = useState([]);
     const mycontext = useContext(ContextCreat);
     const { changeimg,fetchallnotes } = mycontext;
@@ -43,13 +41,13 @@ function HomePage() {
                                 <div className='sm:flex-wrap lg:flex text-center'>
                                     <div className='grid grid-cols-2' style={{ "width": "22pc" }}>
                                         <div>
-                                            <input autoComplete='off' type="text" onChange={handlechange} id="myinp1" list="input" className='ml-auto lg:mr-2 p-4 mt-8 sm:mr-auto ' style={{ "border": "3px solid #ba4b2f", "color": "#ba4b2f", "backgroundColor": "rgb(252 245 235)", "width": "22pc" }} placeholder="Enter Puja Hawan Etc" />
+                                            <input autoComplete='off' type="text" onChange={handlechange} id="myinp1" list="input" className='ml-auto lg:mr-2 p-4 mt-8 sm:mr-auto rounded-full' style={{ "border": "3px solid #ba4b2f", "color": "#ba4b2f", "backgroundColor": "rgb(252 245 235)", "width": "22pc" }} placeholder="Enter Puja Hawan Etc" />
                                             <div id = "desc112" className='overflow-y-auto overflow-x-hidden' style={{ "width": "20pc", "height": "12pc" }}>
-                                                {filtered.map((elm)=>{return <p className='bg-white w-80 text-black' onClick = {()=>{pujaChange(elm.Name,elm.imgLink)}}><Link to = "/AboutService">{elm.Name}</Link></p>})}
+                                                {filtered.map((elm)=>{return <p className='bg-white w-80 rounded-full text-black' onClick = {()=>{pujaChange(elm.Name,elm.imgLink)}}><Link to = "/AboutService">{elm.Name}</Link></p>})}
                                             </div>
                                         </div>
                                     </div>
-                                    <button className='p-4 lg:ml-10 mr-auto mt-8' id="homeBut" style={{ "border": "3px solid #ba4b2f", "color": "#ba4b2f", "backgroundColor": "rgb(252 245 235)", "marginBottom": "1pc", "fontSize": "18px" }}><Link to="/Services">View Services</Link></button></div>
+                                    <button className='p-4 lg:ml-10 mr-auto mt-8 rounded-full' id="homeBut" style={{ "border": "3px solid #ba4b2f", "color": "#ba4b2f", "backgroundColor": "rgb(252 245 235)", "marginBottom": "1pc", "fontSize": "18px" }}><Link to="/Services">View Services</Link></button></div>
                             </div>
                         </div>
                     </div>
@@ -60,19 +58,19 @@ function HomePage() {
                                 </div>
                                 <div className="flex-none">
                                     <ul className="menu menu-horizontal p-0 font-extrabold text-xl text-black">
-                                        <li><Link to="/">Home</Link></li>
-                                        <li><Link to="/Services">Services</Link></li>
-                                        <li><Link to="/About">About Us</Link></li>
-                                        <li><a className='mt-auto mb-2' href="https://wa.me/message/FQEMMDOIGPGPJ1" target="_blank"><img className='p-2' src="/images/WhatsApp.png" alt="" style={{ "height": "3pc", "paddingTop": "11px" }} /></a></li>
+                                        <li><Link className='pt-0' to="/">Home</Link></li>
+                                        <li><Link className='pt-0' to="/Services">Services</Link></li>
+                                        <li><Link className='pt-0' to="/About">About Us</Link></li>
+                                        <li><a className='mt-auto pt-0 mb-2' href="https://wa.me/message/FQEMMDOIGPGPJ1" target="_blank"><img className='p-2' src="/images/WhatsApp.png" alt="" style={{ "height": "3pc", "paddingTop": "11px" }} /></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <img src="/images/A1.png" alt="ganesh Ji Image" className="p-20 pt-5" />
+                        <img src="/images/A1.png" alt="ganesh Ji Image" className="p-20 pb-8 pt-2" />
                     </div>
                 </div>
                 <div style={{ "background": "#efa593", "border-top": "6px solid black;", "width": "full" }} className="myservice">
-                    <p className='text-center pt-7 font-extrabold' style={{ "color": "#ba4b2f", "fontSize": "48px", }}>Services</p>
+                    <p className='text-center pt-7 font-extrabold' style={{ "color": "#ba4b2f", "fontSize": "48px", }}>Features</p>
                     <div className='flex flex-row justify-center flex-wrap'>
                         <div className='h-full p-10'>
                             <img src="/images/S.png" alt="" style={{ "height": "20pc" }} />
@@ -104,11 +102,11 @@ function HomePage() {
                     <div className='flex justify-center flex-wrap'>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
                             <img src="/images/homeing/Sc4.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
-                            <p className='mt-7 text-xl font-extrabold'>Full Guidance <br /> and Support</p>
+                            <p className='mt-7 text-xl font-extrabold text-center'>100% Assistance <br /> and Support</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
                             <img src="/images/homeing/Sc5.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
-                            <p className='mt-7 text-xl font-extrabold'>Experienced priest</p>
+                            <p className='mt-7 text-xl font-extrabold'>Experienced Pandits</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
                             <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
