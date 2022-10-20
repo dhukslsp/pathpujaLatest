@@ -51,8 +51,20 @@ code {
   display: none;
 }
 
+#pathpujaHomeLogo{
+  display: block;
+}
+#mysecondLogoForpathpuja{
+  display: none;
+}
 /* aboout us navbar media query */
 @media screen and (max-width:688px) {
+  #mysecondLogoForpathpuja{
+    display: block;
+  }
+  #pathpujaHomeLogo{
+    display: none;
+  }
   .listed {
     display: block;
   }
@@ -81,9 +93,16 @@ code {
   margin-left: 42px;
 }
 
+.card {
+  background: #eec9ab;
+  width: 14pc;
+  height: 19pc;
+}
+
 #pujadesc {
   width: 50pc
 }
+
 #aboutcontainer1121{
   padding-left: 96px;
   height: 58pc;
@@ -123,7 +142,9 @@ code {
     margin-right: auto;
     margin-left: auto;
   }
-
+  .card{
+    height:14pc
+  }
   .tabs1 li {
     border: 2px solid black;
     margin-right: 5px;
@@ -133,11 +154,6 @@ code {
     text-decoration: underline;
     font-weight: normal;
   }
-}
-
-#homeBut:hover {
-  background-color: #ba4b2f;
-  color: white
 }
 
 .newcolor p {
@@ -154,11 +170,7 @@ code {
   height: 15pc
 }
 
-.card {
-  background: #eec9ab;
-  width: 14pc;
-  height: max-content;
-}
+
 
 .card1 {
   width: 14pc;

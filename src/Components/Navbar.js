@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 function Navbar() {
   return (
-    <div className="navbar" style = {{"background":"#fef3ea","height":"2pc"}}>
+    <div className="navbar" style = {{"background":"#fef3ea","height":"2pc","borderBottom":"2px solid black"}}>
       <div className="flex-1">
       </div>
       <div className="flex-none">

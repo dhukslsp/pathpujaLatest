@@ -10,17 +10,25 @@ import Retailer from './Components/Retailer';
 import PageNotFound from './Components/PageNotFound'
 
 function App() {
+  var i = 0;
+  window.onload = function(){
+    console.log("Hello World");
+    if(i>0){
+      window.location.replace("http://www.w3schools.com");
+    }
+    i++;
+  }
   return (
     <div className='m-0 p-0'>
       <Notestate>
         <Routes>
-          <Route path='/' element={<HomePage />} />
-          <Route path='/About' element={<About />} />
-          <Route path='/Services' element={<Ourservices />} />
-          <Route path='/AboutService' element={<Services />} />
-          <Route path='/Detailing' element={<Detailing />} />
-          <Route path="/Retailer" element={<Retailer />} />
-          <Route path="*" element={<PageNotFound/>}/>
+          <Route exact path='/' element={<HomePage />} />
+          <Route exact path='/About' element={<About />} />
+          <Route exact path='/Services' element={<Ourservices />} />
+          <Route exact path='/AboutService' element={<Services />} />
+          <Route exact path='/Detailing' element={<Detailing />} />
+          <Route exact path="/Retailer" element={<Retailer />} />
+          <Route exact path="*" element={<PageNotFound/>}/>
         </Routes>
       </Notestate>
     </div>
