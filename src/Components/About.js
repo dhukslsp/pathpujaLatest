@@ -19,7 +19,7 @@ function About() {
               variety of puja services that to with easy steps and less time taking booking process. Whats more is that this website provides you a whole lot variety of pujas for all occasions and important events happening at your homes.
               All the puja services are available for the NCR region. A deeper dive into the website we have services of providing you experienced and highly qualified pandit ji’s with minimum time span. Instant bookings are also made possible here. </p>
             <p className='pb-1 text-white font-bold lg:text-left sm:text-center  text-lg'>Looking for creating memorable
-              puja experience for you and your loved ones.</p>
+              puja experience for you and your loved sahdksjdlkkasjdl;dasmcxnsc ones.</p>
           </div>
         </div></p>
       </div>
