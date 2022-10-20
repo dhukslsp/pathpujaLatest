@@ -31,10 +31,12 @@ function HomePage() {
             <div className='bg-white text-black'>
                 <div className='homequery h-auto flex flex-row'>
                     <div style={{ "backgroundColor": "#fcf5eb", "height": "auto" }} >
-                        <img src="/images/A2.png" alt="ganesh Ji Image" className="p-0" id="pathpujaHomeLogo" />
+                        
+                        <Link to="/" id="pathpujaHomeLogo"><img src="/images/pathpujaLogoBackrem.png" alt="" style={{ "height": "4.5rem", "marginLeft": "2.4pc","marginTop":"11px" }} /></Link>
                         <div className='p-10'>
                             <img src="/images/A3.png" alt="there is always room for pathpuja" className="p-0 ml-auto mr-auto mb-10" style={{ "height": "12pc", "marginTop": "16px" }} />
-                            <img src="/images/A4.png" alt="Sub Nav" className="p-0" />
+                                <img src="/images/A4.png" id = "content1" alt="Sub Nav" className="p-0" />
+                                <div className='text-center font-extrabold text-2xl' id = "content2">Celeberting Puja Begins At Home</div>
                         </div>
                         <div className='w-full flex justify-center flex-wrap divElements'>
                             <div className="dropdown">
@@ -60,14 +62,14 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                    <div style={{ "backgroundColor": "#efa593" }} >
-                    <div>
-                    <img src="/images/MyNewLogo.png" alt="ganesh Ji Image" className="p-0" id = "mysecondLogoForpathpuja" />
-                            <div className="navbar bg-base-100 font-extrabold sm:mt-0 lg:mt-5" style={{ "backgroundColor": "#efa593" }}>
+                    <div  style={{ "backgroundColor": "#efa593" }}>
+                        <div>
+                            <img src="/images/MyNewLogo.png" alt="ganesh Ji Image" className="p-0" id="mysecondLogoForpathpuja" />
+                            <div className="navbar bg-base-100 font-extrabold sm:mt-0 lg:mt-5 overflow-y-auto" style={{ "backgroundColor": "#efa593" }}>
 
                                 <div className="flex-1">
                                 </div>
-                                <div className="flex-none">
+                                <div className="flex-none ">
                                     <ul className="menu menu-horizontal p-0 font-extrabold text-xl text-black">
                                         <li><Link className='pt-0  pb-0' to="/">Home</Link></li>
                                         <li><Link className='pt-0  pb-0' to="/Services">Services</Link></li>

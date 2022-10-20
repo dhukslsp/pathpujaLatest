@@ -5,12 +5,12 @@ function Footer() {
         <footer className="footer p-10 text-base-content bg-white">
             <div>
                 <span className="footer-title font-extrabold text-black">Services</span>
-                <a className="link link-hover font-extrabold text-black">Puja</a>
-                <a className="link link-hover font-extrabold text-black">Path/Havan</a>
-                <a className="link link-hover font-extrabold text-black">Jaap</a>
-                <a className="link link-hover font-extrabold text-black">Festival Puja</a>
-                <a className="link link-hover font-extrabold text-black">Shanti Puja</a>
-                <a className="link link-hover font-extrabold text-black"><Link to="/Retailer">Pitru-Paksha Puja</Link></a>
+                <p className="cursor-default font-extrabold text-black">Puja</p>
+                <p className="cursor-default font-extrabold text-black">Path/Havan</p>
+                <p className="cursor-default font-extrabold text-black">Jaap</p>
+                <p className="cursor-default font-extrabold text-black">Festival Puja</p>
+                <p className="cursor-default font-extrabold text-black">Shanti Puja</p>
+                <p className="link-hover font-extrabold text-black"><Link to="/Retailer">Pitru-Paksha Puja</Link></p>
             </div>
             <div>
                 <span className="footer-title font-extrabold text-black">Contact</span>

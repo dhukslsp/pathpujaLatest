@@ -34,14 +34,43 @@ code {
   height: 62pc
 }
 
+#img1 {
+  display: block;
+}
+
+#mobileLogo {
+  display: none;
+}
+
 @media screen and (max-width:1279px) {
   .maindiv {
     height: 80pc
   }
 }
 
+#content2 {
+  display: none;
+}
 
 @media screen and (max-width:780px) {
+  #content2 {
+    display: block;
+    color: #ba4b2f;
+    font-family:cursive
+  }
+
+  #content1 {
+    display: none;
+  }
+
+  #mobileLogo {
+    display: block;
+  }
+
+  #img1 {
+    display: none;
+  }
+
   .maindiv {
     height: 110pc
   }
@@ -51,20 +80,24 @@ code {
   display: none;
 }
 
-#pathpujaHomeLogo{
+#pathpujaHomeLogo {
   display: block;
 }
-#mysecondLogoForpathpuja{
+
+#mysecondLogoForpathpuja {
   display: none;
 }
+
 /* aboout us navbar media query */
 @media screen and (max-width:688px) {
-  #mysecondLogoForpathpuja{
+  #mysecondLogoForpathpuja {
     display: block;
   }
-  #pathpujaHomeLogo{
+
+  #pathpujaHomeLogo {
     display: none;
   }
+
   .listed {
     display: block;
   }
@@ -103,28 +136,34 @@ code {
   width: 50pc
 }
 
-#aboutcontainer1121{
+#aboutcontainer1121 {
   padding-left: 96px;
   height: 58pc;
 }
+
 @media screen and (max-width:820px) {
   #pujadesc {
     width: 111%
   }
-  #logoimg{
+
+  #logoimg {
     padding-left: 1pc;
     padding-right: 1.4pc;
   }
-  #aboutcontainer1121{
+
+  #aboutcontainer1121 {
     padding-left: 1pc;
     height: auto;
   }
-  .media1{
+
+  .media1 {
     width: 148%;
   }
-  .benifitpro{
+
+  .benifitpro {
     margin-left: 64px;
   }
+
   .puja {
     margin-left: 4pc;
   }
@@ -142,9 +181,11 @@ code {
     margin-right: auto;
     margin-left: auto;
   }
-  .card{
-    height:14pc
+
+  .card {
+    height: 14pc
   }
+
   .tabs1 li {
     border: 2px solid black;
     margin-right: 5px;

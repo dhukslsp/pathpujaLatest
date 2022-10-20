@@ -10,14 +10,6 @@ import Retailer from './Components/Retailer';
 import PageNotFound from './Components/PageNotFound'
 
 function App() {
-  var i = 0;
-  window.onload = function(){
-    console.log("Hello World");
-    if(i>0){
-      window.location.replace("http://www.w3schools.com");
-    }
-    i++;
-  }
   return (
     <div className='m-0 p-0'>
       <Notestate>
@@ -28,7 +20,7 @@ function App() {
           <Route exact path='/AboutService' element={<Services />} />
           <Route exact path='/Detailing' element={<Detailing />} />
           <Route exact path="/Retailer" element={<Retailer />} />
-          <Route exact path="*" element={<PageNotFound/>}/>
+          <Route exact path="*" element={<PageNotFound />} />
         </Routes>
       </Notestate>
     </div>
