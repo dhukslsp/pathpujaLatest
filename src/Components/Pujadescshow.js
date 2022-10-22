@@ -1,9 +1,12 @@
-import React, { useContext } from 'react'
+import React, { useContext,useEffect} from 'react'
 import Navbar from './Navbar'
 import PackageCard from './PackageCard'
 import Footer from './Footer'
 import ContextCreat from '../Context/Contextcreat';
 function Pujadescshow(props) {
+    useEffect(() => {
+        window.scrollTo(0,0)    
+    }, [1])
     const mycontext = useContext(ContextCreat);
     const { imglink } = mycontext;
     return (
@@ -12,7 +15,7 @@ function Pujadescshow(props) {
             <Navbar />
             <div className='flex flex-col h-full w-full justify-center ' style={{ "backgroundColor": "rgb(254 243 234)" }}>
             <div className='flex flex-wrap lg:justify-center sm:justify-start'>
-            <img src={imglink} className="h-7 block" style={{"height":"25.75rem","width":"25pc"}} alt="" />
+            <img src={imglink} className="h-7 block sm:pt-0 lg:pt-5" style={{"height":"25.75rem","width":"25pc"}} alt="" />
             <div className='flex flex-col' style={{ "width": "60%" }}>
             <p className='puja font-bold text-3xl mt-5 text-black'>{props.name}</p>
             <div className='flex pl-11 pt-9 flex-wrap text-black' id = "pujadesc">{props.describe}</div>
@@ -27,7 +30,7 @@ function Pujadescshow(props) {
                                 </ul>
                                 </p>
                             </div>
-                            <div className="divider lg:divider-horizontal" style = {{"border":"1px solid black","width":"1px"}}></div>
+                            <div className="divider lg:divider-horizontal" style = {{"border":"1px solid black","width":"1px","marginRight":"20px"}}></div>
                             <div style={{ "width": "40%", "minWidth": "11pc", "marginTop": "8px" }}>
                                 <div className='text-xl font-bold'>Our Promise</div>
                                 <p><ul className='list-disc'>

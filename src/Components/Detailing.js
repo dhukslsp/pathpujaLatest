@@ -1,9 +1,13 @@
-import React, { useContext } from 'react'
+import React, { useContext,useEffect } from 'react'
 import Contextcreat from "../Context/Contextcreat"
 import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 import Navbar from './Navbar'
 function Detailing() {
+    useEffect(() => {
+        window.scrollTo(0,0)    
+    }, [1])
+    
     const fetch = useContext(Contextcreat);
     const { Packagedesc, cust_sendMail, save_CustData } = fetch;
     const Navigate = useNavigate();

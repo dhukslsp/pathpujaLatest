@@ -10,6 +10,12 @@ import Retailer from './Components/Retailer';
 import PageNotFound from './Components/PageNotFound'
 
 function App() {
+  window.onbeforeunload = function () {
+    window.setTimeout(function () {
+      window.location.href = "/"
+    });
+    window.onbeforeunload = null; // necessary to prevent infinite loop, that kills your browser 
+  }
   return (
     <div className='m-0 p-0'>
       <Notestate>
