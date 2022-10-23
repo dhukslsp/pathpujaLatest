@@ -17,12 +17,12 @@ function Pujadescshow(props) {
             <div className='flex flex-wrap lg:justify-center sm:justify-start'>
             <img src={imglink} className="h-7 block sm:pt-0 lg:pt-5" style={{"height":"25.75rem","width":"25pc"}} alt="" />
             <div className='flex flex-col' style={{ "width": "60%" }}>
-            <p className='puja font-bold text-3xl mt-5 text-black'>{props.name}</p>
+            <p className='puja font-bold text-3xl mt-5 text-black '>{props.name}</p>
             <div className='flex pl-11 pt-9 flex-wrap text-black' id = "pujadesc">{props.describe}</div>
             <div className='benifitpro flex mt-10 mb-10 flex-wrap justify-center text-black' >
                             <div style={{ "width": "40%", "minWidth": "11pc" }}>
                                 <div className='text-xl font-bold'>Key Benefits</div>
-                                <p><ul className='list-disc'>
+                                <p className='myp1'><ul className='list-disc'>
                                     <li>{props.Benifit1}</li>
                                     <li>{props.Benifit2}</li>
                                     <li>{props.Benifit3}</li>
@@ -30,10 +30,10 @@ function Pujadescshow(props) {
                                 </ul>
                                 </p>
                             </div>
-                            <div className="divider lg:divider-horizontal" style = {{"border":"1px solid black","width":"1px","marginRight":"20px"}}></div>
+                            <div className="divider lg:divider-horizontal" style = {{"border":"1px solid black","width":"1px"}}></div>
                             <div style={{ "width": "40%", "minWidth": "11pc", "marginTop": "8px" }}>
                                 <div className='text-xl font-bold'>Our Promise</div>
-                                <p><ul className='list-disc'>
+                                <p className='myp2'><ul className='list-disc'>
                                     <li>Timely availability of quality services</li>
                                     <li>Cost effective prices</li>
                                     <li>Ideal code of behaviour</li>

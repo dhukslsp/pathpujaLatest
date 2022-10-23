@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-router-dom"
 function Navbar() {
   return (
-    <div className=''>
+    <div>
       <Link to="/"><img src="/images/A2.png" id = "mobileLogo"/></Link>
       <div className="navbar overflow-y-auto" style={{ "background": "#fef3ea", "height": "6rem", "borderBottom": "2px solid black" }}>
         <div className="flex-1" id="img1">

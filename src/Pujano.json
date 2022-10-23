@@ -14,7 +14,7 @@
         },
         {
             "Name": "Navgraha Homa",
-            "imgLink": ""
+            "imgLink": "./PujaList/navgrha.jpg"
         },
         {
             "Name": "Gandmool Nakshatra Puja",
@@ -46,7 +46,7 @@
         },
         {
             "Name": "Roka Ceremony",
-            "imgLink": ""
+            "imgLink": "./PujaList/RokaCeremony.jpg"
         },
         {
             "Name": "Graha Shanti Puja",
@@ -70,7 +70,7 @@
         },
         {
             "Name": "Shuddhi Karan Puja",
-            "imgLink": ""
+            "imgLink": "./PujaList/ShuddiKaranPuja.jpg"
         },
         {
             "Name": "Vishvakarma Puja",
@@ -148,7 +148,7 @@
         },
         {
             "Name": "Santan Gopal Mantra Jaap",
-            "imgLink": "./PujaList/SantanGopalJapp..jpg"
+            "imgLink": "./PujaList/SantanGopalJapp.jpg"
         }
     ],
     [

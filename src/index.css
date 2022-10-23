@@ -56,7 +56,7 @@ code {
   #content2 {
     display: block;
     color: #ba4b2f;
-    font-family:cursive
+    font-family: cursive
   }
 
   #content1 {
@@ -141,11 +141,22 @@ code {
   height: 58pc;
 }
 
+.divider {
+  margin-right: 20px;
+}
+
 @media screen and (max-width:820px) {
-  #pujadesc {
-    width: 111%
+  .divider {
+    margin-right: 0pc;
   }
 
+  .myp1 {
+    width: 160%
+  }
+
+  .myp2 {
+    width: 160%
+  }
   #logoimg {
     padding-left: 1pc;
     padding-right: 1.4pc;
@@ -165,7 +176,8 @@ code {
   }
 
   .puja {
-    margin-left: 4pc;
+    margin-left: 1pc;
+    width:150%
   }
 
   .homequery {
@@ -173,8 +185,8 @@ code {
   }
 
   #pujadesc {
-    width: 18pc;
-    padding-left: 4pc;
+    width: 150%;  
+    padding-left: 1pc;
   }
 
   .divElements input {
@@ -230,6 +242,9 @@ code {
 }
 
 @media screen and (max-width:760px) {
+  .divider{
+    display: none;
+  }
   .classpathstyle a {
     padding: 0px;
   }
