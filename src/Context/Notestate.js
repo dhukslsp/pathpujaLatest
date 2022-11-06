@@ -6,7 +6,7 @@ const Notestate = (props) => {
     const [Packagedesc, chpackage] = useState();
     const [imglink,changeimg] = useState("");
     const fetchallnotes = async (pujaname) => {
-        const response = await fetch(`http://43.205.168.224:5001/api/Retrieve/myroute1/` + pujaname, {
+        const response = await fetch(`http://43.205.168.224:5001/api/Retrieve/myroute1/` + pujaname.replaceAll("/"," or "), {
             method: 'GET'
         })
         const newjson = await response.json()
