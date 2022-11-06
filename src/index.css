@@ -30,6 +30,8 @@ code {
   height: 20px;
 }
 
+.imagefit {}
+
 .maindiv {
   height: 62pc
 }
@@ -53,6 +55,11 @@ code {
 }
 
 @media screen and (max-width:780px) {
+  #imagefit {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   #content2 {
     display: block;
     color: #ba4b2f;
@@ -111,9 +118,24 @@ code {
   }
 }
 
+@media screen and (max-width:383px) {
+  #services112 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+  }
+}
+@media screen and (max-width:348px) {
+  #services112 {
+    display: flex;
+    justify-content: center;
+
+  }
+}
+
 @media screen and (max-width:688px) {
   .hidden {
-    display: block;
+    display: none;
   }
 }
 
@@ -157,6 +179,7 @@ code {
   .myp2 {
     width: 160%
   }
+
   #logoimg {
     padding-left: 1pc;
     padding-right: 1.4pc;
@@ -177,7 +200,7 @@ code {
 
   .puja {
     margin-left: 1pc;
-    width:150%
+    width: 150%
   }
 
   .homequery {
@@ -185,7 +208,7 @@ code {
   }
 
   #pujadesc {
-    width: 150%;  
+    width: 150%;
     padding-left: 1pc;
   }
 
@@ -242,7 +265,7 @@ code {
 }
 
 @media screen and (max-width:760px) {
-  .divider{
+  .divider {
     display: none;
   }
   .classpathstyle a {

@@ -2,13 +2,14 @@ import React, { useContext } from 'react'
 import Pujadescshow from './OtherPujaPages/Pujadescshow';
 import Contextcreat from '../Context/Contextcreat'
 import NoPuja from '../Components/InnerPages/NoPuja'
+import OtherElement from './OtherPujaPages/OtherElement';
 function Services() {
     const new1 = useContext(Contextcreat);
     const {first} = new1;
     return (
         <div>
             {
-                first.length!==0?first.map(elm=>(<Pujadescshow
+                first.length!==0?first.map(elm=>(elm.secondpage === undefined?<Pujadescshow
                 name = {elm.name} 
                 describe = {elm.Desc}
                 Benifit1 = {elm.Benifit1}
@@ -35,7 +36,7 @@ function Services() {
                 pricesS = {elm.Standard[0].Prices}
                 subpujaS = {elm.Standard[0].Subpuja}
                 hoursS = {elm.Standard[0].hours}
-                />)):<NoPuja/>}
+                />:<OtherElement/>)):<NoPuja/>}
         </div>
     )
 }

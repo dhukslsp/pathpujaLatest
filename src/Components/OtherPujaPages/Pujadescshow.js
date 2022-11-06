@@ -15,7 +15,7 @@ function Pujadescshow(props) {
             <Navbar />
             <div className='flex flex-col h-full w-full justify-center ' style={{ "backgroundColor": "rgb(254 243 234)" }}>
             <div className='flex flex-wrap lg:justify-center sm:justify-start'>
-            <img src={imglink} className="h-7 block sm:pt-0 lg:pt-5" style={{"height":"25.75rem","width":"25pc"}} alt="" />
+            <img src={imglink} className="h-7 block sm:pt-0 lg:pt-5" style={{"height":"25.75rem","width":"25pc"}} id = "imagefit" alt="" />
             <div className='flex flex-col' style={{ "width": "60%" }}>
             <p className='puja font-bold text-3xl mt-5 text-black '>{props.name}</p>
             <div className='flex pl-11 pt-9 flex-wrap text-black' id = "pujadesc">{props.describe}</div>

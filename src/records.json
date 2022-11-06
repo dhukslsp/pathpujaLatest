@@ -675,7 +675,7 @@
         }
     },
     {
-        "name": "Durga Saptshati/Parayana/Chandi Homa/Durga Homa",
+        "name": "Durga Saptshati or Parayana or Chandi Homa or Durga Homa",
         "Desc": "NA",
         "Benifit1": "It creates a flow of positivity and happiness in family.",
         "Benifit2": "It curbs all the obstacles in life.",
@@ -1538,6 +1538,63 @@
             "FullPayment": "",
             "AdvancePayment": ""
         },
+        "Premium": "NA",
+        "Standard": "NA"
+    },
+    {
+        "name": "Kumbh or Vishnu Vivah",
+        "Desc": "NA",
+        "Benifit1": "It removes negative energy present in the house.",
+        "Benifit2": "It removes obstacles in one’s life.",
+        "Benifit3": "It creates a positive environment by removing negativity.",
+        "Benifit4": "It brings peace and luck to the family.",
+        "Basic": {
+            "Subpuja": "NA",
+            "hours": "4 hour",
+            "Pandit": "3 Pandit Ji",
+            "Prices": "12551",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Regular": "NA",
+        "Premium": "NA",
+        "Standard": "NA"
+    },
+    {
+        "name": "Tulsi Vivah",
+        "Desc": "NA",
+        "Benifit1": "It removes negative energy present in the house.",
+        "Benifit2": "It removes obstacles in one’s life.",
+        "Benifit3": "It creates a positive environment by removing negativity.",
+        "Benifit4": "It brings peace and luck to the family.",
+        "Basic": {
+            "Subpuja": "NA",
+            "hours": "4 hour",
+            "Pandit": "3 Pandit Ji",
+            "Prices": "12551",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Regular": "NA",
+        "Premium": "NA",
+        "Standard": "NA"
+    },
+    {
+        "name": "Ark Vivah or Male",
+        "Desc": "NA",
+        "Benifit1": "It removes negative energy present in the house.",
+        "Benifit2": "It removes obstacles in one’s life.",
+        "Benifit3": "It creates a positive environment by removing negativity.",
+        "Benifit4": "It brings peace and luck to the family.",
+        "Basic": {
+            "Subpuja": "NA",
+            "hours": "4 hour",
+            "Pandit": "3 Pandit Ji",
+            "Prices": "12551",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Regular": "NA",
         "Premium": "NA",
         "Standard": "NA"
     }
