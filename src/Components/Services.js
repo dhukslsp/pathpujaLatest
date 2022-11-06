@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
-import Pujadescshow from './Pujadescshow';
+import Pujadescshow from './OtherPujaPages/Pujadescshow';
 import Contextcreat from '../Context/Contextcreat'
+import NoPuja from '../Components/InnerPages/NoPuja'
 function Services() {
     const new1 = useContext(Contextcreat);
     const {first} = new1;
@@ -34,7 +35,7 @@ function Services() {
                 pricesS = {elm.Standard[0].Prices}
                 subpujaS = {elm.Standard[0].Subpuja}
                 hoursS = {elm.Standard[0].hours}
-                />)):<div>Puja Details Not Available</div>}
+                />)):<NoPuja/>}
         </div>
     )
 }

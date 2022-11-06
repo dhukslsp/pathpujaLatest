@@ -1,8 +1,8 @@
 import React, { useContext,useEffect} from 'react'
-import Navbar from './Navbar'
+import Navbar from '../Navbar'
 import PackageCard from './PackageCard'
-import Footer from './Footer'
-import ContextCreat from '../Context/Contextcreat';
+import Footer from '../Footer'
+import ContextCreat from '../../Context/Contextcreat';
 function Pujadescshow(props) {
     useEffect(() => {
         window.scrollTo(0,0)    

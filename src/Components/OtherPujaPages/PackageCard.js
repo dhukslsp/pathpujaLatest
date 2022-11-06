@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import Contextcreat from '../Context/Contextcreat'
+import Contextcreat from '../../Context/Contextcreat'
 function PackageCard(props) {
     const fetch = useContext(Contextcreat);
     const { chpackage } = fetch;

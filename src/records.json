@@ -323,7 +323,7 @@
         }
     },
     {
-        "name": "Kuber Upasana/Lakshmi Kuber Homa",
+        "name": "Kuber Upasana or Lakshmi Kuber Homa",
         "Desc": "NA",
         "Benifit1": "Kuber Upasana is performed as it helps to gain wealth and prosperity in life.",
         "Benifit2": "Kuber Upasana is a remedy to all losses and debts in life.",
@@ -1304,7 +1304,6 @@
             "FullPayment": "",
             "AdvancePayment": ""
         }
-   
     },
     {
         "name": "Vishti Karan Dosh Puja",
@@ -1458,5 +1457,88 @@
             "FullPayment": "",
             "AdvancePayment": ""
         }
+    },
+    {
+        "name": "Aysha Homa",
+        "Desc": "NA",
+        "Benifit1": "It removes negative energy present in the house.",
+        "Benifit2": "It removes obstacles in one’s life.",
+        "Benifit3": "It creates a positive environment by removing negativity.",
+        "Benifit4": "It brings peace and luck to the family.",
+        "Basic": {
+            "Subpuja": "NA",
+            "hours": "2 hour",
+            "Pandit": "1 Pandit Ji",
+            "Prices": "3500",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Regular": "NA",
+        "Premium": "NA",
+        "Standard": "NA"
+    },
+    {
+        "name": "Navratri Kalash Sthapna",
+        "Desc": "NA",
+        "Benifit1": "It removes negative energy present in the house.",
+        "Benifit2": "It removes obstacles in one’s life.",
+        "Benifit3": "It creates a positive environment by removing negativity.",
+        "Benifit4": "It brings peace and luck to the family.",
+        "Basic": {
+            "Subpuja": "NA",
+            "hours": "1 hour",
+            "Pandit": "1 Pandit Ji",
+            "Prices": "2551",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Regular": "NA",
+        "Premium": "NA",
+        "Standard": "NA"
+    },
+    {
+        "name": "Aysha Homa",
+        "Desc": "NA",
+        "Benifit1": "It removes negative energy present in the house.",
+        "Benifit2": "It removes obstacles in one’s life.",
+        "Benifit3": "It creates a positive environment by removing negativity.",
+        "Benifit4": "It brings peace and luck to the family.",
+        "Basic": {
+            "Subpuja": "NA",
+            "hours": "2 hour",
+            "Pandit": "1 Pandit Ji",
+            "Prices": "3500",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Regular": "NA",
+        "Premium": "NA",
+        "Standard": "NA"
+    },
+    {
+        "name": "Mata ki Chowki",
+        "Desc": "NA",
+        "Benifit1": "It removes negative energy present in the house.",
+        "Benifit2": "It removes obstacles in one’s life.",
+        "Benifit3": "It creates a positive environment by removing negativity.",
+        "Benifit4": "It brings peace and luck to the family.",
+        "Basic": {
+            "Subpuja": "NA",
+            "hours": "4 hour",
+            "Pandit": "1 Pandit Ji + 2 Musician",
+            "Prices": "5800",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Regular": {
+            "Subpuja": "NA",
+            "hours": "4 hour",
+            "Pandit": "1 Pandit Ji + 4 Musician",
+            "Prices": "12551",
+            "FullPayment": "",
+            "AdvancePayment": ""
+        },
+        "Premium": "NA",
+        "Standard": "NA"
     }
 ]

@@ -12,7 +12,7 @@
     {"Name": "Vivah","imgLink": "./PujaList/Vivah.jpg"},
     {"Name": "Roka Ceremony","imgLink": "./PujaList/RokaCeremony.jpg"},
     {"Name": "Graha Shanti Puja","imgLink": "./PujaList/GraahaShanti_Jaap.jpg"},
-    {"Name": "Kuber Upasana/Lakshmi Kuber Homa","imgLink": "./PujaList/LakshmiHoma.jpg"},
+    {"Name": "Kuber Upasana or Lakshmi Kuber Homa","imgLink": "./PujaList/LakshmiHoma.jpg"},
     {"Name": "Maha Lakshmi Puja","imgLink": "./PujaList/Maha_Lakshmi.jpg"},
     {"Name": "Office Opening Puja","imgLink": "./PujaList/officeopening.jpg"},
     {"Name": "Saraswati Puja","imgLink": "./PujaList/Saraaswati_Puja.jpg"},
@@ -20,7 +20,7 @@
     {"Name": "Vishvakarma Puja","imgLink": "./PujaList/Vishvakarma.jpg"},
     {"Name": "Janeyu Sanskar (Upnayan)","imgLink": "./PujaList/Janeyu.jpg"},
     {"Name": "Maha Shivratri Puja","imgLink": "./PujaList/MaheshvatiPuja.jpg"},
-    {"Name": "Vechile Puja","imgLink": "/PujaList/Vehicle_Puja.jpg"},
+    {"Name": "Vehicle Puja","imgLink": "/PujaList/Vehicle_Puja.jpg"},
     {"Name": "Karwa Chauth","imgLink": "./PujaList/KarwaChauth.jpg"},
     {"Name": "Vidhya Arambham","imgLink": "./PujaList/Vidyaarambh.jpg"},
     {"Name": "Gauri Puja","imgLink": "/images/pathpuj12.jpg"},
@@ -57,5 +57,6 @@
     {"Name":"Manglik Shanti","imgLink":"/images/pathpuj12.jpg"},
     {"Name":"Manglik Shanti","imgLink":"/images/pathpuj12.jpg"},
     {"Name":"Manglik Shanti","imgLink":"/images/pathpuj12.jpg"},
-    {"Name":"Narayana Bali","imgLink":"/images/pathpuj12.jpg"}
+    {"Name":"Narayana Bali","imgLink":"/images/pathpuj12.jpg"},
+    {"Name": "Vishti Karan Dosh Puja","imgLink":"/images/pathpuj12.jpg"}
 ]
