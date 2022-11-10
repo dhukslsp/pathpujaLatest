@@ -50,7 +50,8 @@
         },
         {
             "Name": "Graha Shanti Puja",
-            "imgLink": "./PujaList/GraahaShanti_Jaap.jpg"
+            "imgLink": "./PujaList/GraahaShanti_Jaap.jpg",
+            "Sub":"True"
         },
         {
             "Name": "Kuber Upasana or Lakshmi Kuber Homa",

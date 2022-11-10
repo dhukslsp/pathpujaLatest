@@ -123,7 +123,7 @@ function HomePage() {
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
                             <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
-                            <p className='mt-7 text-xl font-extrabold width-auto'>Puntuality Promse</p>
+                            <p className='mt-7 text-xl font-extrabold width-auto'>Puntuality Promise</p>
                         </div>
                     </div>
                 </div>

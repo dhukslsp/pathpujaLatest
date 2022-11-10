@@ -20,7 +20,7 @@ function Ourservices() {
             <div className='servicesBg1 pt-.5'>
             <div className='p-3 hover:glass flex listclass'>
                     <div className='flex flex-wrap p-1 lg:justify-center sm:justify-start' id = "services112">
-                        {Pujano[pujaty].map((elm) => { return <Pujac id={elm.Name} Name1={elm.Name} src={elm.imgLink !== "" ? elm.imgLink : "/images/pathpuj12.jpg"} /> })}
+                        {Pujano[pujaty].map((elm) => { return <Pujac Sub = {elm.Sub} id={elm.Name} Name1={elm.Name} src={elm.imgLink !== "" ? elm.imgLink : "/images/pathpuj12.jpg"} /> })}
                     </div>
                 </div>  
             </div>

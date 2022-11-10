@@ -8,6 +8,8 @@ import Detailing from './Components/Detailing';
 import Services from './Components/Services';
 import Retailer from './Components/Retailer';
 import PageNotFound from './Components/PageNotFound'
+import SubpujaElm from './Components/OtherPujaPages/SubpujaElm';
+import SubpujaDesc from './Components/OtherPujaPages/SubpujaDesc/SubpujaDesc';
 
 function App() {
   window.onbeforeunload = function () {
@@ -26,7 +28,9 @@ function App() {
           <Route exact path='/AboutService' element={<Services />} />
           <Route exact path='/Detailing' element={<Detailing />} />
           <Route exact path="/Retailer" element={<Retailer />} />
+          <Route exact path="/subpujadisp" element={<SubpujaDesc/>} />
           <Route exact path="*" element={<PageNotFound />} />
+          <Route exact path="/Graha_Shanti_Puja" element={<SubpujaElm/>} />
         </Routes>
       </Notestate>
     </div>
