@@ -17,19 +17,20 @@ function PackageCard(props) {
     }
 
     return (
-        <div className="card1 w-60 bg-base-100 shadow-xl m-12">
-            <div className="card-body bg-white rounded-lg" style = {{"height":"18.5pc"}}>
-                <h2 className="card-title">{props.package}</h2>
-                <ul className=''>
-                    <li>{props.subpuja}</li>
-                    <li>Time - {props.hours}</li>
-                    <li>Pandit's - {props.pandits}</li>
-                    <li>Amount - ₹{props.prices}</li>
+        <div className="bg-white ml-5 rounded-2xl p-2 mb-10" style = {{"width":"16pc"}}>
+            <div className="card-body  rounded-lg">
+                <h2 className="card-title justify-center font-extrabold">{props.package}</h2>
+                <ul className='pt-4'>
+                    <li>{props.subpuja === "NA"?"":props.subpuja}</li>
+                    <li><p className='font-bold inline'>Time - </p> {props.hours}</li>
+                    <li><p className='font-bold inline'>Pandit's -</p> {props.pandits}</li>
+                    <li><p className='font-bold inline'>Amount - ₹{props.prices}</p></li>
                 </ul>
-                <div className="card-actions justify-end">
-                    <Link to="/Detailing"><button className="btn btn-primary" onClick={runner}>Select</button></Link>
-                </div>
             </div>
+            <div className="card-actions justify-center pb-4 mb-5">
+                <Link to="/Detailing"><button className="btn btn-primary" onClick={runner}>Select</button></Link>
+            </div>
+
         </div>
     )
 }

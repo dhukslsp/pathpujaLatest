@@ -13,7 +13,6 @@ function Navbar() {
             <li><Link className='pt-0  pb-0' to="/">Home</Link></li>
             <li><Link className='pt-0  pb-0' to="/Services">Services</Link></li>
             <li><Link className='pt-0  pb-0' to="/About">About Us</Link></li>
-            <li><a className='mt-auto pt-0 pb-0 mb-2' href="https://wa.me/message/FQEMMDOIGPGPJ1" target="_blank"><img className='p-2' src="/images/WhatsApp.png" alt="" style={{ "height": "3pc", "paddingTop": "11px" }} /></a></li>
           </ul>
         </div>
         <div style={{ "userSelect": "none" }}>

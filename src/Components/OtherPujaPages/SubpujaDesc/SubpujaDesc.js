@@ -6,6 +6,7 @@ function SubpujaDesc() {
     <div>
     <img src="/images/beauti.png" alt="Beautify wifth-full" className='w-full' />
     <Navbar/>
+    
     <Footer/>
     </div>
   )
