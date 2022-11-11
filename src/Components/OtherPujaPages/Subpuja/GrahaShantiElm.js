@@ -1,7 +1,7 @@
 import { React, useEffect } from 'react'
-import Footer from '../Footer'
-import Navbar from '../Navbar'
-import Pujac from '../Pujac'
+import Footer from '../../Footer'
+import Navbar from '../../Navbar'
+import Pujac from '../../Pujac'
 function SubpujaElm() {
   useEffect(() => {
     window.scrollTo(0, 0)

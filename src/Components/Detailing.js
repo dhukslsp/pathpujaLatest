@@ -5,7 +5,10 @@ import Footer from './Footer';
 import Navbar from './Navbar'
 function Detailing() {
     useEffect(() => {
-        window.scrollTo(0,0)    
+        window.scrollTo(0,0)   
+        if(Packagedesc.subpuja === "NA"){
+            document.getElementById("dis12").style.display = "none"
+        }
     }, [1])
     
     const fetch = useContext(Contextcreat);
@@ -49,7 +52,7 @@ function Detailing() {
                 <div className=''>
                     <ul className='list-disc'>
                         <li className='m-2 font-bold ml-4'><u>{Packagedesc.packageName}</u></li>
-                        <li className='m-2 ml-4'><u>{Packagedesc.subpuja}</u></li>
+                        <li className='m-2 ml-4' id = "dis12"><u>{Packagedesc.subpuja}</u></li>
                         <li className='m-2 ml-4'>Time - {Packagedesc.hours}</li>
                         <li className='m-2 ml-4'>Pandit's - {Packagedesc.pandits}</li>
                         <li className='m-2 ml-4'>Amount - ₹{Packagedesc.pices}</li>

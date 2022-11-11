@@ -8,9 +8,9 @@ import Detailing from './Components/Detailing';
 import Services from './Components/Services';
 import Retailer from './Components/Retailer';
 import PageNotFound from './Components/PageNotFound'
-import SubpujaElm from './Components/OtherPujaPages/SubpujaElm';
+import SubpujaElm from './Components/OtherPujaPages/Subpuja/GrahaShantiElm';
 import SubpujaDesc from './Components/OtherPujaPages/SubpujaDesc/SubpujaDesc';
-
+import GrahaShnatiJaap from './Components/OtherPujaPages/Subpuja/GrahaShantiJaap'
 function App() {
   window.onbeforeunload = function () {
     window.setTimeout(function () {
@@ -31,6 +31,7 @@ function App() {
           <Route exact path="/subpujadisp" element={<SubpujaDesc/>} />
           <Route exact path="*" element={<PageNotFound />} />
           <Route exact path="/Graha_Shanti_Puja" element={<SubpujaElm/>} />
+          <Route exact path="/Graha_Shanti_Puja_+_Jaap" element={<GrahaShnatiJaap/>} />
         </Routes>
       </Notestate>
     </div>
