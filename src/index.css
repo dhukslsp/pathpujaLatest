@@ -30,7 +30,6 @@ code {
   height: 20px;
 }
 
-.imagefit {}
 
 .maindiv {
   height: 62pc
@@ -42,6 +41,7 @@ code {
 
 #mobileLogo {
   display: none;
+
 }
 
 @media screen and (max-width:1279px) {
@@ -55,11 +55,6 @@ code {
 }
 
 @media screen and (max-width:780px) {
-  #imagefit {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   #content2 {
     display: block;
     color: #ba4b2f;
@@ -71,7 +66,7 @@ code {
   }
 
   #mobileLogo {
-    display: block;
+    display: flex;
   }
 
   #img1 {
@@ -94,7 +89,9 @@ code {
 #mysecondLogoForpathpuja {
   display: none;
 }
-
+#navcontent{
+  display: block;
+}
 /* aboout us navbar media query */
 @media screen and (max-width:688px) {
   #mysecondLogoForpathpuja {
@@ -116,6 +113,9 @@ code {
   #listbut {
     display: block;
   }
+  #navcontent{
+    display: none;
+  }
 }
 
 @media screen and (max-width:383px) {
@@ -130,6 +130,12 @@ code {
     display: flex;
     justify-content: center;
 
+  }
+}
+@media screen and (max-width:984px) {
+  #imagefit{
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
