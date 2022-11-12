@@ -4,15 +4,7 @@ import { Link } from 'react-router-dom'
 import Pujasea from '../Pujasearch.json'
 import Footer from './Footer'
 function HomePage() {
-    const [first, setfirst] = useState(window.screen.width > 330 ? "" : "none");
-    const handler = () => {
-        if (first === "") {
-            setfirst("none")
-        }
-        else {
-            setfirst("")
-        }
-    }
+    const [first, setfirst] = useState(window.screen.width > 530 ? "" : "none");
     const [myst1, newstate] = useState("");
     const [filtered, changefiltered] = useState([]);
     const mycontext = useContext(ContextCreat);
@@ -73,7 +65,7 @@ function HomePage() {
                     <div style={{ "backgroundColor": "#efa593" }}>
                         <div>
                             <div id="mobileLogo">
-                                <Link to="/"><img src="/images/MyNewLogo.png" /></Link><i className="fa fa-bars p-5" onClick={handler}></i>
+                            <i className="fa fa-bars p-5 pt-7" onClick={()=>{document.getElementById("sidebar").classList.toggle("active")}}></i><Link to="/"><img src="/images/MyNewLogo.png" /></Link>
                             </div>
                             <div className="navbar bg-base-100 font-extrabold sm:mt-0 lg:mt-5 overflow-y-auto" style={{ "backgroundColor": "#efa593","display": first}}>
                                 <div className="flex-1">

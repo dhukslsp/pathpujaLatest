@@ -328,3 +328,31 @@ code {
   border: 2px solid black;
   margin: 2px;
 }
+
+/* making the mbile Navbar */
+#sidebarId > {
+  margin: 0;
+  padding: 0;
+}
+#sidebar{
+  position: absolute;
+  z-index: 9;
+  width: 280px;
+  background: black;
+  left: -300px;
+  transition: .4s;
+  opacity: 2;
+}
+#sidebar.active{
+  left: 0;
+}
+#sidebar ul li{
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px 24px;
+  font-weight: bolder;
+}
+#sidebar ul li:hover{
+  color: silver;
+}
