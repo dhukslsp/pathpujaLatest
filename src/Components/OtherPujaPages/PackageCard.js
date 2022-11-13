@@ -28,7 +28,7 @@ function PackageCard(props) {
                 </ul>
             </div>
             <div className="card-actions justify-center pb-4 mb-5">
-                <Link to="/Detailing"><button className="btn btn-primary" onClick={runner}>Select</button></Link>
+                <Link to="/Detailing"><button className="btn btn-primary" onClick={runner} style = {{"position":"relative","top":"18px"}}>Select</button></Link>
             </div>
 
         </div>

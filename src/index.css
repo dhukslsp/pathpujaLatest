@@ -335,16 +335,17 @@ code {
   padding: 0;
 }
 #sidebar{
-  position: absolute;
-  z-index: 9;
+  position: fixed;
   width: 280px;
   background: black;
-  left: -300px;
+  right: -283px;
   transition: .4s;
   opacity: 2;
+  z-index: 9;
 }
 #sidebar.active{
-  left: 0;
+  right: 0;
+
 }
 #sidebar ul li{
   list-style: none;

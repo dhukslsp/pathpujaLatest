@@ -24,7 +24,7 @@ function App() {
   }
   return (
     <div className='m-0 p-0'>
-      <div id="sidebar" style = {{"height": "100vh","overflow":"scroll","position":"fixed"}}>
+      <div id="sidebar" style = {{"height": "100vh","overflow":"scroll"}}>
         <ul>
           <li onClick={NavigationClose} className = "text-center">X</li>
           <Link to = "/" onClick={NavigationClose}><li>Home</li></Link>

@@ -65,7 +65,7 @@ function HomePage() {
                     <div style={{ "backgroundColor": "#efa593" }}>
                         <div>
                             <div id="mobileLogo">
-                            <i className="fa fa-bars p-5 pt-7" onClick={()=>{document.getElementById("sidebar").classList.toggle("active")}}></i><Link to="/"><img src="/images/MyNewLogo.png" /></Link>
+                            <Link to="/"><img src="/images/MyNewLogo.png" /></Link><i className="fa fa-bars p-5" onClick={()=>{document.getElementById("sidebar").classList.toggle("active")}}></i>
                             </div>
                             <div className="navbar bg-base-100 font-extrabold sm:mt-0 lg:mt-5 overflow-y-auto" style={{ "backgroundColor": "#efa593","display": first}}>
                                 <div className="flex-1">
