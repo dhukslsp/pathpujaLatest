@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import Pujano from '../Pujano.json'
 import Pujac from './Pujac';
 
 function Ourservices() {
+    useEffect(() => {
+        window.scrollTo(0,0); 
+    }, [])
+    
     const [pujaty, chpuja] = useState(0);
     return (
         <div>

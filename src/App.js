@@ -11,6 +11,7 @@ import PageNotFound from './Components/PageNotFound'
 import SubpujaElm from './Components/OtherPujaPages/Subpuja/GrahaShantiElm';
 import SubpujaDesc from './Components/OtherPujaPages/SubpujaDesc/SubpujaDesc';
 import GrahaShnatiJaap from './Components/OtherPujaPages/Subpuja/GrahaShantiJaap'
+import { useEffect } from 'react';
 function App() {
   window.onbeforeunload = function () {
     window.setTimeout(function () {
@@ -19,11 +20,11 @@ function App() {
     window.onbeforeunload = null; // necessary to prevent infinite loop, that kills your browser 
   }
   const NavigationClose = () =>{
-    document.getElementById("sidebar").classList.toggle("active")
+    document.getElementById("sidebar").classList.toggle("active");
   }
   return (
     <div className='m-0 p-0'>
-      <div id="sidebar" style = {{"height": document.getElementById("root").offsetHeight === 0?"90pc":document.getElementById("root").offsetHeight,"overflow":"none"}}>
+      <div id="sidebar" style = {{"height": "100vh","overflow":"scroll","position":"fixed"}}>
         <ul>
           <li onClick={NavigationClose} className = "text-center">X</li>
           <Link to = "/" onClick={NavigationClose}><li>Home</li></Link>

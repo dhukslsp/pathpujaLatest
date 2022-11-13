@@ -17,8 +17,8 @@ function PackageCard(props) {
     }
 
     return (
-        <div className="bg-white ml-5 rounded-2xl p-2 mb-10" style = {{"width":"16pc"}}>
-            <div className="card-body  rounded-lg">
+        <div className="bg-white lg:ml-5 md:ml-5 sm:ml-0 rounded-2xl p-2 mb-10" style = {{"width":"16pc"}}>
+            <div className="card-body  rounded-lg" style={{"height":"15pc"}}>
                 <h2 className="card-title justify-center font-extrabold">{props.package}</h2>
                 <ul className='pt-4'>
                     <li>{props.subpuja === "NA"?"":props.subpuja}</li>
