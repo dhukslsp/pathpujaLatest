@@ -51,15 +51,15 @@ function Detailing() {
                 <p className='text-4xl font-extrabold mt-2'>{Packagedesc.pujaname}</p>
                 <div className=''>
                     <ul className='list-disc'>
-                        <li className='m-2 font-bold ml-4'><u>{Packagedesc.packageName}</u></li>
-                        <li className='m-2 ml-4' id = "dis12"><u>{Packagedesc.subpuja}</u></li>
+                        <li className='m-2 font-bold ml-4'>{Packagedesc.packageName}</li>
+                        <li className='m-2 ml-4' id = "dis12">{Packagedesc.subpuja}</li>
                         <li className='m-2 ml-4'>Time - {Packagedesc.hours}</li>
                         <li className='m-2 ml-4'>Pandit's - {Packagedesc.pandits}</li>
                         <li className='m-2 ml-4'>Amount - ₹{Packagedesc.pices}</li>
                     </ul>
                 </div>
-                <p className='ml-2 mt-2 mb-8 text-bold'>
-                    FIll out the Form to Proceed further
+                <p className='ml-2 mt-2 mb-8 font-bold text-center'>
+                    Personal Information
                 </p>
                 <div className='ml-auto mr-auto'>
                     <div className='ml-auto mr-auto grid gap-4 grid-cols-2'>
@@ -90,7 +90,7 @@ function Detailing() {
                     </div>
                     <div className="mb-4 w-full">
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
-                            Adress
+                            Address
                         </label>
                         <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Adress" type="text" placeholder="Street Name, Locality" />
                     </div>
@@ -114,7 +114,7 @@ function Detailing() {
                             <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="Pincode" type="number" placeholder="Pin Code" />
                         </div>
                     </div>
-                    <p className='inline mb-10'>Puja would be performed on which :</p>
+                    <p className='inline mb-10 font-bold'>Puja would be performed on which :</p>
                     <div className="mb-4 w-full mt-5">
                         <label className="block text-gray-700 text-sm font-bold mb-2" htmlfor="username">
                             Date

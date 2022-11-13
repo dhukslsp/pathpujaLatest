@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
       <div id="mobileLogo">
-      <Link to="/"><img src="/images/A2.png" /></Link><i className="fa fa-bars p-5 " onClick={()=>{document.getElementById("sidebar").classList.toggle("active")}}></i>
+      <Link to="/"><img src="/images/A2.png" /></Link><i className="fa fa-bars p-5 " style = {{"background":"#fef3ea"}} onClick={()=>{document.getElementById("sidebar").classList.toggle("active")}}></i>
       </div>
       <div className="navbar overflow-y-auto" id="navdisp" style={{ "background": "#fef3ea", "height": "6rem", "borderBottom": "2px solid black", "display": showNav }}>
         <div className="flex-1" id="img1">

@@ -274,10 +274,6 @@ code {
   .divider {
     display: none;
   }
-  .classpathstyle a {
-    padding: 0px;
-  }
-
   .classpathstyle img {
     height: 8pc
   }
@@ -336,24 +332,34 @@ code {
 }
 #sidebar{
   position: fixed;
-  width: 280px;
-  background: black;
+  width: 216px;
+  background: White;
   right: -283px;
   transition: .4s;
   opacity: 2;
   z-index: 9;
+  height: 100vh;
+  overflow: scroll;
 }
 #sidebar.active{
   right: 0;
 
 }
 #sidebar ul li{
+  margin: 6px;
   list-style: none;
-  color: white;
+  color: black;
   font-size: 20px;
-  padding: 20px 24px;
+  padding: 8px;
   font-weight: bolder;
+  background: #e5c9a1;
+  border-radius: 1.1pc;
+  height:48px
+}
+#sidebar ul li > {
+  margin-left: 1px;
 }
 #sidebar ul li:hover{
-  color: silver;
+  background: rgb(121 127 135);
+  color: white;
 }

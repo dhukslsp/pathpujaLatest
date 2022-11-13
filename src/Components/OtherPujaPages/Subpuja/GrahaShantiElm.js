@@ -9,12 +9,12 @@ function SubpujaElm() {
   return (
     <div>
       <Navbar />
-      <div className='pt-10 pl-10 text-black text-2xl' style={{ "backgroundColor": "#fef3ea" }}>
+      <div className='pt-10 lg:pl-10 md:pl-0 sm:pl-0 text-black text-2xl' style={{ "backgroundColor": "#fef3ea" }}>
         <p className='font-extrabold text-center pb-5'>
           Graha Shanti Puja
         </p>
         </div>
-        <div className='flex flex-wrap p-1 pl-4 justify-center' style={{ "backgroundColor": "#fef3ea" }}>
+        <div className='flex flex-wrap lg:pl-4 mg:pl-0 sm:pl-0 justify-center' style={{ "backgroundColor": "#fef3ea" }}>
           <Pujac Name1="Budha Graha Shanti Puja" src = "/images/pathpuj12.jpg"  />
           <Pujac Name1="Chandra Graha Shanti Puja" src = "/images/pathpuj12.jpg"  />
           <Pujac Name1="Guru Graha Shanti Puja" src = "/images/pathpuj12.jpg"  />

@@ -11,7 +11,6 @@ import PageNotFound from './Components/PageNotFound'
 import SubpujaElm from './Components/OtherPujaPages/Subpuja/GrahaShantiElm';
 import SubpujaDesc from './Components/OtherPujaPages/SubpujaDesc/SubpujaDesc';
 import GrahaShnatiJaap from './Components/OtherPujaPages/Subpuja/GrahaShantiJaap'
-import { useEffect } from 'react';
 function App() {
   window.onbeforeunload = function () {
     window.setTimeout(function () {
@@ -24,12 +23,12 @@ function App() {
   }
   return (
     <div className='m-0 p-0'>
-      <div id="sidebar" style = {{"height": "100vh","overflow":"scroll"}}>
-        <ul>
-          <li onClick={NavigationClose} className = "text-center">X</li>
-          <Link to = "/" onClick={NavigationClose}><li>Home</li></Link>
-          <Link to = "/Services" onClick={NavigationClose}><li>Services</li></Link>
-          <Link to = "/About" onClick={NavigationClose}><li>About Us</li></Link>
+      <div id="sidebar">
+        <ul className = "mt-7">
+          <li onClick={NavigationClose}><img src="images/Navbar/Close(1).png" alt="" className='h-5 inline' /><p className='inline mt-auto mb-auto ml-2'>Close</p></li>
+          <Link to = "/" onClick={NavigationClose}><li><img src="images/Navbar/hom(1).png" className='h-6 mt-auto mb-uato inline' alt="" srcset="" /> Home</li></Link>
+          <Link to = "/Services" onClick={NavigationClose}><li><img src="images/Navbar/services.png" className='h-6 mt-auto mb-uato inline' alt="" /> Services</li></Link>
+          <Link to = "/About" onClick={NavigationClose}><li><img src="images/Navbar/informatio_button.png" className='h-6 mt-auto mb-uato mr-1 inline' alt="" srcset="" />About Us</li></Link>
         </ul>
       </div>
       <Notestate>

@@ -14,7 +14,7 @@ function SubpujaElm() {
           Graha Shanti Puja + Jaap
         </p>
         </div>
-        <div className='flex flex-wrap p-1 justify-center' style={{ "backgroundColor": "#fef3ea" }}>
+        <div className='flex flex-wrap lg:pl-4 md:pl-0 sm:pl-0 justify-center' style={{ "backgroundColor": "#fef3ea" }}>
           <Pujac Name1="Budha Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
           <Pujac Name1="Chandra Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
           <Pujac Name1="Guru Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
