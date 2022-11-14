@@ -6,7 +6,7 @@ import Pujac from './Pujac';
 
 function Ourservices() {
     useEffect(() => {
-        window.scrollTo(0,0); 
+        window.scrollTo(0,0);
     }, [])
     
     const [pujaty, chpuja] = useState(0);

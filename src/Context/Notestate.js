@@ -5,6 +5,9 @@ const Notestate = (props) => {
     const [custdet, setcustdet] = useState([]);
     const [Packagedesc, chpackage] = useState();
     const [imglink,changeimg] = useState("");
+    const SetnoteNull = ()=>{
+        setnotes([]);
+    }
     const fetchallnotes = async (pujaname) => {
         const response = await fetch(`http://localhost:2001/api/Retrieve/myroute1/` + pujaname.replaceAll("/"," or "), {
             method: 'GET'
@@ -57,7 +60,7 @@ const Notestate = (props) => {
         console.log(newjson[0].CusPinCode);
     }
     return (
-        <Contextcreat.Provider value={{ first, fetchallnotes, chpackage, Packagedesc, save_CustData, cust_sendMail, custdet, fetchPuja, fetchdCustDet,imglink,changeimg }}>
+        <Contextcreat.Provider value={{ first, fetchallnotes, chpackage, Packagedesc, save_CustData, cust_sendMail, custdet, fetchPuja, fetchdCustDet,imglink,changeimg,SetnoteNull }}>
             {props.children}
         </Contextcreat.Provider>
     )

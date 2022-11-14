@@ -4,8 +4,9 @@ import ContextCreat from '../Context/Contextcreat';
 
 function Pujac(props) {
     const mycontext = useContext(ContextCreat);
-    const { fetchallnotes,changeimg } = mycontext;
+    const { fetchallnotes,changeimg,SetnoteNull } = mycontext;
     const pujaChange = (first,imgLink) => {
+        SetnoteNull();
         fetchallnotes(first);
         changeimg(imgLink);
     }
