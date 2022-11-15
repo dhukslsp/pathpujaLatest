@@ -13,7 +13,7 @@ function Pujac(props) {
     return (
         <div className='classpathstyle contents mb-6 '>
             <Link to = {props.Sub === undefined?"/AboutService":"/"+props.Name1.replaceAll(" ","_")}>
-                <a onClick={() => { pujaChange(props.Name1,props.src) }} className='card hover:border-2 hover:border-black' style={{ "padding": "0px", "marginBottom": "20px", "marginLeft": "5px" }}>
+                <a onClick={() => { pujaChange(props.Name1,props.src) }} className='card hover:border-2 hover:border-black' style={{ "padding": "0px","margin":"2px", "marginBottom": "20px" }}>
                     <div className="searchimg">
                         <img alt="This is an alternating" src={props.src} style={{"width":"100%"}}/>
                     </div>

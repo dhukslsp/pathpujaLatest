@@ -43,7 +43,6 @@ code {
   display: none;
 
 }
-
 @media screen and (max-width:1279px) {
   .maindiv {
     height: 80pc
@@ -117,15 +116,18 @@ code {
     display: none;
   }
 }
-
-@media screen and (max-width:383px) {
+/* for services page */
+@media screen and (max-width:500px) {
+  .card{
+    margin-left:0px
+  }
   #services112 {
     display: grid;
     grid-template-columns: auto auto auto;
 
   }
 }
-@media screen and (max-width:348px) {
+@media screen and (max-width:340px) {
   #services112 {
     display: flex;
     justify-content: center;
