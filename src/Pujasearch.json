@@ -11,12 +11,12 @@
     {"Name": "Griha Pravesh","imgLink": "./PujaList/GrahaPravesh.jpg"},
     {"Name": "Vivah","imgLink": "./PujaList/Vivah.jpg"},
     {"Name": "Roka Ceremony","imgLink": "./PujaList/RokaCeremony.jpg"},
-    {"Name": "Graha Shanti Puja","imgLink": "./PujaList/GraahaShanti_Jaap.jpg"},
+    {"Name": "Graha Shanti Puja","imgLink": "./PujaList/GraahaShanti_Jaap.jpg","route":"True"},
     {"Name": "Kuber Upasana or Lakshmi Kuber Homa","imgLink": "./PujaList/LakshmiHoma.jpg"},
     {"Name": "Maha Lakshmi Puja","imgLink": "./PujaList/Maha_Lakshmi.jpg"},
     {"Name": "Office Opening Puja","imgLink": "./PujaList/officeopening.jpg"},
     {"Name": "Saraswati Puja","imgLink": "./PujaList/Saraaswati_Puja.jpg"},
-    {"Name": "Shuddhi Karan Puja","imgLink": "/images/ShuddiKaranPuja.jpg"},
+    {"Name": "Shuddhi Karan Puja","imgLink": "./PujaList/ShuddiKaranPuja.jpg"},
     {"Name": "Vishvakarma Puja","imgLink": "./PujaList/Vishvakarma.jpg"},
     {"Name": "Janeyu Sanskar (Upnayan)","imgLink": "./PujaList/Janeyu.jpg"},
     {"Name": "Maha Shivratri Puja","imgLink": "./PujaList/MaheshvatiPuja.jpg"},
@@ -55,5 +55,30 @@
     {"Name":"Manglik Shanti","imgLink":"/images/pathpuj12.jpg"},
     {"Name":"Tripad Nakshtra Dosha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
     {"Name":"Narayana Bali","imgLink":"/images/pathpuj12.jpg"},
-    {"Name": "Vishti Karan Dosh Puja","imgLink":"/images/pathpuj12.jpg"}
+    {"Name": "Vishti Karan Dosh Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name": "Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg","route":"True"},
+    {"Name": "Budha Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Chandra Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Guru Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Ketu Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Mangal Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Ketu Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Rahu Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Shani Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Shukra Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Surya Graha Shanti Puja","imgLink":"/images/pathpuj12.jpg"},
+    {"Name": "Budha Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Chandra Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Guru Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Ketu Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Mangal Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Ketu Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Rahu Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Shani Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Shukra Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"},
+    {"Name":"Surya Graha Shanti Puja + Jaap","imgLink":"/images/pathpuj12.jpg"}
+
+
+
+
 ]

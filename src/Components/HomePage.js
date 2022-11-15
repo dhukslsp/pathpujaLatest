@@ -6,10 +6,27 @@ import Footer from './Footer'
 function HomePage() {
     const [first, setfirst] = useState(window.screen.width > 530 ? "" : "none");
     const [myst1, newstate] = useState("");
-    const [filtered, changefiltered] = useState([]);
+    const [filtered, changefiltered] = useState([]); //Adding filtered array of Pujas after Search operation
     const mycontext = useContext(ContextCreat);
-    const { changeimg, fetchallnotes } = mycontext;
+    const { changeimg, fetchallnotes,SetnoteNull } = mycontext;
+    //Code to be part of search algorithm
+    const toUppercase = (str) => {
+        //Function to convert anything to upper case
+        const arr = str.split(" ");
+        console.log(arr)
+        //loop through each element of the array and capitalize the first letter.
+        for (var i = 0; i < arr.length; i++) {
+            arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+
+        }
+        //Join all the elements of the array back into a string 
+        //using a blankspace as a separator 
+        const str2 = arr.join(" ");
+        console.log(str2);
+        newstate(str2);
+    }
     const pujaChange = (first, imgLink) => {
+        SetnoteNull()
         changeimg(imgLink);
         fetchallnotes(first);
     }
@@ -24,9 +41,11 @@ function HomePage() {
             document.getElementById("desc112").style.display = "none";
         }
         e.preventDefault();
-        newstate(e.target.value);
+        toUppercase(e.target.value);
+        //newstate(e.target.value);
         filterItem1();
     }
+    //This all code is the part of search algorithm
     return (
         <div>
             <div className='bg-white text-black'>
@@ -53,7 +72,7 @@ function HomePage() {
                                                 </div>
                                             </form>
                                             <div id="desc112" className='overflow-y-auto overflow-x-hidden' style={{ "width": "20pc", "height": "12pc" }}>
-                                                {filtered.map((elm) => { return <p className='bg-white w-80 rounded-full text-black' onClick={() => { pujaChange(elm.Name, elm.imgLink) }}><Link to="/AboutService">{elm.Name}</Link></p> })}
+                                                {filtered.map((elm) => { return <p className='bg-white w-80 rounded-full text-black' onClick={() => { pujaChange(elm.Name, elm.imgLink) }}><Link to={elm.route === undefined? "/AboutService":elm.Name.replaceAll(" ","_")}>{elm.Name}</Link></p> })}
                                             </div>
                                         </div>
                                     </div>
@@ -65,9 +84,9 @@ function HomePage() {
                     <div style={{ "backgroundColor": "#efa593" }}>
                         <div>
                             <div id="mobileLogo">
-                            <Link to="/"><img src="/images/MyNewLogo.png" /></Link><i className="fa fa-bars p-5" onClick={()=>{document.getElementById("sidebar").classList.toggle("active")}}></i>
+                                <Link to="/"><img src="/images/MyNewLogo.png" /></Link><i className="fa fa-bars p-5" onClick={() => { document.getElementById("sidebar").classList.toggle("active") }}></i>
                             </div>
-                            <div className="navbar bg-base-100 font-extrabold sm:mt-0 lg:mt-5 overflow-y-auto" style={{ "backgroundColor": "#efa593","display": first}}>
+                            <div className="navbar bg-base-100 font-extrabold sm:mt-0 lg:mt-5 overflow-y-auto" style={{ "backgroundColor": "#efa593", "display": first }}>
                                 <div className="flex-1">
                                 </div>
                                 <div className="flex-none ">

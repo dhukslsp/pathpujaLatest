@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 function InnerCon() {
   useEffect(() => {
     setTimeout(() => {
-      window.scrollTo(0,0); 
       document.getElementById("loadingId").style.display = "none";
       document.getElementById("resultId").style.display = "block";
     }, 3000);
@@ -13,7 +12,7 @@ function InnerCon() {
     <div>
       <div className='mt-10 mb-auto' id = "loadingId">
         <img src="/images/Loading.gif" alt="Loading Spinner" className='ml-auto mr-auto mt-auto mb-auto h-10' />
-        <p className='font-bold text-center mt-5'> Hang On! Fetching Puja Details for you.</p>
+        <p className='font-bold text-center text-black mt-5'> Hang On! Fetching Puja Details for you.</p>
       </div>
       <div className='text-black' style = {{"display":"none"}} id = "resultId">
         <p className='text-center font-extrabold text-5xl pt-10'>Oops</p>

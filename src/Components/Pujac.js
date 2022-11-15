@@ -15,7 +15,7 @@ function Pujac(props) {
             <Link to = {props.Sub === undefined?"/AboutService":"/"+props.Name1.replaceAll(" ","_")}>
                 <a onClick={() => { pujaChange(props.Name1,props.src) }} className='card' style={{ "padding": "5px", "marginBottom": "20px", "marginLeft": "5px" }}>
                     <div className="searchimg">
-                        <img alt="" src={props.src} style={{"width":"-webkit-fill-available"}}/>
+                        <img alt="This is an alternating" src={props.src} style={{"width":"100%"}}/>
                     </div>
                     <div className="details">
                         <p className="font-extrabold text-center" style={{ "wordWrap": "break-word" }}>{props.Name1}</p>
