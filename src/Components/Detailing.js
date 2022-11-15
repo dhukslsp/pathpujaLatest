@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Navbar from './Navbar'
 function Detailing() {
     useEffect(() => {
-        window.scrollTo(0,0); 
+        window.scrollTo(0,0);
         if(Packagedesc.subpuja === "NA"){
             document.getElementById("dis12").style.display = "none"
         }

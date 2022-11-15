@@ -6,7 +6,7 @@ function About() {
     <div>
       <Navbar />
       <div id="aboutcontainer1121" className='flex flex-wrap lg:justify-start sm:justify-center text-white' style={{ "backgroundColor": "#bd4b2f", "paddingTop": "4pc" }}>
-        <img src="/images/pathpuj12.jpg" alt="" id="logoimg" style={{ "borderRadius": "100pc", "height": "24pc", "marginTop": "auto","marginBottom":"auto" }} />
+        <img src="/images/homeing/pathpuj12.jpg" alt="" id="logoimg" style={{ "borderRadius": "100pc", "height": "24pc", "marginTop": "auto","marginBottom":"auto" }} />
         <p className='w-1/2 sm:ml-0 sm:mr-9 md:ml-auto md:mr-auto lg:ml-auto lg:mr-auto '><div className='media1 m-12 text-black'>
 
           <div className='flex justify-center flex-col'>

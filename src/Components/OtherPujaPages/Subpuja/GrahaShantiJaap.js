@@ -15,15 +15,15 @@ function SubpujaElm() {
         </p>
         </div>
         <div className='flex flex-wrap lg:pl-4 md:pl-0 sm:pl-0 justify-center' style={{ "backgroundColor": "#fef3ea" }}>
-          <Pujac Name1="Budha Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Chandra Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Guru Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Ketu Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Mangal Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Rahu Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Shani Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Shukra Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
-          <Pujac Name1="Surya Graha Shanti Puja + Jaap" src = "/images/pathpuj12.jpg"  />
+          <Pujac Name1="Budha Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Chandra Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Guru Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Ketu Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Mangal Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Rahu Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Shani Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Shukra Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
+          <Pujac Name1="Surya Graha Shanti Puja + Jaap" src = "/images/homeing/pathpuj12.jpg"  />
 
         </div>
       <Footer />

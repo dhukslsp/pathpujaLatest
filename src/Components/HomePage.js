@@ -76,7 +76,7 @@ function HomePage() {
                                             </div>
                                         </div>
                                     </div>
-                                    <button className='p-4 mb-6 lg:ml-10 mr-auto mt-8 rounded-full text-white font-bold h-14' style={{ "background": "#ba4b2f" }}><Link to="/Services">View Services</Link></button>
+                                    <Link to="/Services"><button className='p-4 mb-6 lg:ml-10 mr-auto mt-8 rounded-full text-white font-bold h-14' style={{ "background": "#ba4b2f" }}>View Services</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -91,9 +91,9 @@ function HomePage() {
                                 </div>
                                 <div className="flex-none ">
                                     <ul className="menu menu-horizontal p-0 font-extrabold text-xl text-black">
-                                        <li><Link className='pt-0  pb-0' to="/">Home</Link></li>
-                                        <li><Link className='pt-0  pb-0' to="/Services">Services</Link></li>
-                                        <li><Link className='pt-0  pb-0' to="/About">About Us</Link></li>
+                                        <li><Link  to="/"><img src="/images/Navbar/hom(1).png" className='h-7' alt="" />Home</Link></li>
+                                        <li><Link  to="/Services"><img src="/images/Navbar/services.png" className='h-7' alt="" />Services</Link></li>
+                                        <li><Link  to="/About"><img src="/images/Navbar/informatio_button.png" className='h-7' alt="" />About Us</Link></li>
                                     </ul>
                                 </div>
                             </div>
