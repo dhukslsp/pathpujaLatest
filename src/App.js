@@ -25,10 +25,10 @@ function App() {
     <div className='m-0 p-0'>
       <div id="sidebar">
         <ul className = "mt-7">
-          <li onClick={NavigationClose}><img src="images/Navbar/Close(1).png" alt="" className='h-5 inline' /><p className='inline mt-auto mb-auto ml-2'>Close</p></li>
-          <Link to = "/" onClick={NavigationClose}><li><img src="images/Navbar/hom(1).png" className='h-6 mt-auto mb-uato inline' alt="" srcset="" /> Home</li></Link>
-          <Link to = "/Services" onClick={NavigationClose}><li><img src="images/Navbar/services.png" className='h-6 mt-auto mb-uato inline' alt="" /> Services</li></Link>
-          <Link to = "/About" onClick={NavigationClose}><li><img src="images/Navbar/informatio_button.png" className='h-6 mt-auto mb-uato mr-1 inline' alt="" srcset="" />About Us</li></Link>
+          <li className='border-2 border-black' onClick={NavigationClose}><img src="images/Navbar/Close(1).png" alt="" className='h-5 inline' /><p className='inline mt-auto mb-auto ml-2'>Close</p></li>
+          <Link to = "/" onClick={NavigationClose}><li className='border-2 border-black'><img src="images/Navbar/hom(1).png" className='h-6 mt-auto mb-uato inline' alt="" srcset="" /> Home</li></Link>
+          <Link to = "/Services" onClick={NavigationClose}><li className='border-2 border-black'><img src="images/Navbar/services.png" className='h-6 mt-auto mb-uato inline' alt="" /> Services</li></Link>
+          <Link to = "/About" onClick={NavigationClose}><li className='border-2 border-black'><img src="images/Navbar/informatio_button.png" className='h-6 mt-auto mb-uato mr-1 inline' alt="" srcset="" />About Us</li></Link>
         </ul>
       </div>
       <Notestate>

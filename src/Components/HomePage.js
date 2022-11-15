@@ -51,10 +51,10 @@ function HomePage() {
             <div className='bg-white text-black'>
                 <div className='homequery h-auto flex flex-row'>
                     <div style={{ "backgroundColor": "#fcf5eb", "height": "auto" }} >
-                        <Link to="/" id="pathpujaHomeLogo"><img src="/images/pathpujaLogoBackrem.png" alt="" style={{ "height": "4.5rem", "marginLeft": "2.4pc", "marginTop": "11px" }} /></Link>
+                        <Link to="/" id="pathpujaHomeLogo"><img src="/images/homeing/pathpujaLogoBackrem.png" alt="" style={{ "height": "4.5rem", "marginLeft": "2.4pc", "marginTop": "11px" }} /></Link>
                         <div className='p-10'>
-                            <img src="/images/A3.png" alt="there is always room for pathpuja" className="p-0 ml-auto mr-auto mb-10" style={{ "height": "12pc", "marginTop": "16px" }} />
-                            <img src="/images/A4.png" id="content1" alt="Sub Nav" className="p-0" />
+                            <img src="/images/homeing/A3.png" alt="there is always room for pathpuja" className="p-0 ml-auto mr-auto mb-10" style={{ "height": "12pc", "marginTop": "16px" }} />
+                            <img src="/images/homeing/A4.png" id="content1" alt="Sub Nav" className="p-0" />
                             <div className='text-center font-extrabold text-2xl' id="content2">Celeberting Puja Begins At Home</div>
                         </div>
                         <div className='w-full flex justify-center flex-wrap divElements'>
@@ -72,7 +72,7 @@ function HomePage() {
                                                 </div>
                                             </form>
                                             <div id="desc112" className='overflow-y-auto overflow-x-hidden' style={{ "width": "20pc", "height": "12pc" }}>
-                                                {filtered.map((elm) => { return <p className='bg-white w-80 rounded-full text-black' onClick={() => { pujaChange(elm.Name, elm.imgLink) }}><Link to={elm.route === undefined? "/AboutService":elm.Name.replaceAll(" ","_")}>{elm.Name}</Link></p> })}
+                                                {filtered.map((elm) => { return <p className='bg-white w-80 rounded-full' onClick={() => { pujaChange(elm.Name, elm.imgLink) }}><Link to={elm.route === undefined? "/AboutService":elm.Name.replaceAll(" ","_")}>{elm.Name}</Link></p> })}
                                             </div>
                                         </div>
                                     </div>
@@ -84,7 +84,7 @@ function HomePage() {
                     <div style={{ "backgroundColor": "#efa593" }}>
                         <div>
                             <div id="mobileLogo">
-                                <Link to="/"><img src="/images/MyNewLogo.png" /></Link><i className="fa fa-bars p-5" onClick={() => { document.getElementById("sidebar").classList.toggle("active") }}></i>
+                                <Link to="/"><img src="/images/homeing/MyNewLogo.png" /></Link><i className="fa fa-bars p-5" onClick={() => { document.getElementById("sidebar").classList.toggle("active") }}></i>
                             </div>
                             <div className="navbar bg-base-100 font-extrabold sm:mt-0 lg:mt-5 overflow-y-auto" style={{ "backgroundColor": "#efa593", "display": first }}>
                                 <div className="flex-1">
@@ -98,50 +98,50 @@ function HomePage() {
                                 </div>
                             </div>
                         </div>
-                        <img src="/images/A1.png" alt="ganesh Ji Image" className="p-20 pb-8 pt-2" />
+                        <img src="/images/homeing/A1.png" alt="ganesh Ji Image" className="p-20 pb-8 pt-2" />
                     </div>
                 </div>
                 <div style={{ "background": "#efa593", "border-top": "6px solid black;", "width": "full" }} className="myservice">
                     <p className='text-center pt-7 font-extrabold' style={{ "color": "#ba4b2f", "fontSize": "48px", }}>Services</p>
                     <div className='flex flex-row justify-center flex-wrap'>
                         <div className='h-full p-10'>
-                            <img src="/images/S.png" alt="" style={{ "height": "20pc" }} />
+                            <img src="/images/homeing/S.png" alt="" style={{ "height": "20pc" }} />
                         </div>
                         <div className='h-full p-10'>
-                            <img src="/images/Sa.png" alt="" style={{ "height": "20pc" }} />
+                            <img src="/images/homeing/Sa.png" alt="" style={{ "height": "20pc" }} />
                         </div>
                         <div className='h-full p-10'>
-                            <img src="Sb.png" alt="" style={{ "height": "20pc" }} />
+                            <img src="/images/homeing/Sb.png" alt="" style={{ "height": "20pc" }} />
                         </div>
                     </div>
                 </div>
                 <div style={{ "background": "#fcf5eb", "border-top": "6px solid black;", "width": "full" }} className="newcolor">
                     <p className='text-center pt-7 font-extrabold' style={{ "color": "#ba4b2f", "fontSize": "48px", }}>Features</p>
                     <div className='flex justify-center flex-wrap'>
-                        <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc1.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
+                        <div className='h-full p-10 ml-auto mr-auto'>
+                            <img src="/images/homeing/Sc1.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Easy Booking</p>
                         </div>
-                        <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc2.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
+                        <div className='h-full p-10 ml-auto mr-auto'>
+                            <img src="/images/homeing/Sc2.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Modest Pricing</p>
                         </div>
-                        <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc3.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
+                        <div className='h-full p-10 ml-auto mr-auto'>
+                            <img src="/images/homeing/Sc3.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Professional Team</p>
                         </div>
                     </div>
                     <div className='flex justify-center flex-wrap'>
-                        <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc4.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
+                        <div className='h-full p-10 ml-auto mr-auto'>
+                            <img src="/images/homeing/Sc4.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
                             <p className='mt-7 text-xl font-extrabold text-center'>100% Assistance <br /> and Support</p>
                         </div>
-                        <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc5.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
+                        <div className='alingment h-full p-10 ml-auto mr-auto lg:relative lg:right-5 md:static sm:static' >
+                            <img src="/images/homeing/Sc5.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Experienced Pandits</p>
                         </div>
-                        <div className='h-full p-10 ml-auto mr-auto flex justify-center flex-col'>
-                            <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "5pc", "alignSelf": "center" }} />
+                        <div className='alingment h-full p-10 ml-auto mr-auto lg:relative lg:right-3.5 md:static sm:static'>
+                            <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
                             <p className='mt-7 text-xl font-extrabold width-auto'>Puntuality Promise</p>
                         </div>
                     </div>
