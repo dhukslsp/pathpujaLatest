@@ -18,7 +18,7 @@ function Pujac(props) {
                         <img alt="This is an alternating" src={props.src} style={{"width":"100%"}}/>
                     </div>
                     <div className="details">
-                        <p className="font-extrabold text-center" style={{ "wordWrap": "break-word","marginLeft":"1px" }}>{props.Name1}</p>
+                        <p className="lg:font-extrabold text-center" style={{ "wordWrap": "break-word","marginLeft":"1px" }}>{props.Name1}</p>
                     </div>
                 </a>
             </Link>

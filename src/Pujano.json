@@ -5,6 +5,10 @@
             "imgLink": "./PujaList/Annaprashna.jpg"
         },
         {
+            "Name": "Aysha Homa",
+            "imgLink": "./PujaList/AyushaHomam.jpg"
+        },
+        {
             "Name": "Bhoomi Pujan",
             "imgLink": "./PujaList/Bhoomi_Puja.jpg"
         },
@@ -20,10 +24,7 @@
             "Name": "Dhanvantri Homam",
             "imgLink": "./PujaList/DhanvaniHomam.jpg"
         },
-        {
-            "Name": "Aysha Homa",
-            "imgLink": "./PujaList/AyushaHomam.jpg"
-        },
+        
         {
             "Name": "Ekadashi Vrat Udayapan Puja",
             "imgLink": "./PujaList/EkdshiVirat.jpg"
@@ -140,17 +141,17 @@
             "imgLink": "./PujaList/GyatriMantraJaap.jpg"
         },
         {
+            "Name": "Graha Shanti Puja + Jaap",
+            "imgLink": "",
+            "Sub": "True"
+        },
+        {
             "Name": "Mahamrityunjaya Jaap",
             "imgLink": "./PujaList/MahaMritunyaJaap.jpg"
         },
         {
             "Name": "Santan Gopal Mantra Jaap",
             "imgLink": "./PujaList/SantanGopalJapp.jpg"
-        },
-        {
-            "Name": "Graha Shanti Puja + Jaap",
-            "imgLink": "",
-            "Sub": "True"
         }
     ],
     [
