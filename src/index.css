@@ -54,18 +54,15 @@ code {
 }
 
 @media screen and (max-width:780px) {
-  #content2 {
-    display: block;
-    color: #ba4b2f;
-    font-family: cursive
-  }
-
   #content1 {
-    display: none;
+   height: 4pc;
   }
 
   #mobileLogo {
     display: flex;
+  }
+  #navdisp{
+    display:none;
   }
 
   #img1 {
@@ -117,6 +114,13 @@ code {
   }
 }
 /* for services page */
+@media screen and (max-width:639px) {
+  #services112 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+  }
+}
 @media screen and (max-width:500px) {
   .card{
     margin-left:0px
@@ -225,9 +229,7 @@ code {
     margin-left: auto;
   }
 
-  .card {
-    height: 14pc
-  }
+
 
   .tabs1 li {
     border: 2px solid black;
@@ -254,6 +256,11 @@ code {
   height: 15pc
 }
 
+@media screen and (max-width:760px) {
+  .card{
+    height: 14pc;
+  }
+}
 
 
 .card1 {

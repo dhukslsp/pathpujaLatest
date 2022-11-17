@@ -8,7 +8,7 @@ function HomePage() {
     const [myst1, newstate] = useState("");
     const [filtered, changefiltered] = useState([]); //Adding filtered array of Pujas after Search operation
     const mycontext = useContext(ContextCreat);
-    const { changeimg, fetchallnotes,SetnoteNull } = mycontext;
+    const { changeimg, fetchallnotes, SetnoteNull } = mycontext;
     //Code to be part of search algorithm
     const toUppercase = (str) => {
         //Function to convert anything to upper case
@@ -52,10 +52,9 @@ function HomePage() {
                 <div className='homequery h-auto flex flex-row'>
                     <div style={{ "backgroundColor": "#fcf5eb", "height": "auto" }} >
                         <Link to="/" id="pathpujaHomeLogo"><img src="/images/homeing/pathpujaLogoBackrem.png" alt="" style={{ "height": "4.5rem", "marginLeft": "2.4pc", "marginTop": "11px" }} /></Link>
-                        <div className='p-10'>
+                        <div className="p-10">
                             <img src="/images/homeing/A3.png" alt="there is always room for pathpuja" className="p-0 ml-auto mr-auto mb-10" style={{ "height": "12pc", "marginTop": "16px" }} />
-                            <img src="/images/homeing/A4.png" id="content1" alt="Sub Nav" className="p-0" />
-                            <div className='text-center font-extrabold text-2xl' id="content2">Celeberting Puja Begins At Home</div>
+                            <img src="/images/homeing/A4.png" id="content1" alt="Sub Nav" className="sm:p-0 md:pl-15 md:pr-15 lg:pl-20 lg:pr-20" />
                         </div>
                         <div className='w-full flex justify-center flex-wrap divElements'>
                             <div className="dropdown">
@@ -68,11 +67,11 @@ function HomePage() {
                                                     <div className="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
                                                         <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                                                     </div>
-                                                    <input autoComplete='off' type="text" onChange={handlechange} id="myinp1" list="input" className="block p-4 pl-10 w-80 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Puja, Path, Havan & etc." required="" />
+                                                    <input autoComplete='off' type="text" onChange={handlechange} id="myinp1" list="input" className="block p-4 pl-10 w-80 text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500" placeholder="Search Puja, Path, Havan & etc." required="" />
                                                 </div>
                                             </form>
                                             <div id="desc112" className='overflow-y-auto overflow-x-hidden' style={{ "width": "20pc", "height": "12pc" }}>
-                                                {filtered.map((elm) => { return <p className='bg-white w-80 rounded-full' onClick={() => { pujaChange(elm.Name, elm.imgLink) }}><Link to={elm.route === undefined? "/AboutService":elm.Name.replaceAll(" ","_")}>{elm.Name}</Link></p> })}
+                                                {filtered.map((elm) => { return <p className='bg-white w-80 rounded-full' onClick={() => { pujaChange(elm.Name, elm.imgLink) }}><Link to={elm.route === undefined ? "/AboutService" : elm.Name.replaceAll(" ", "_")}>{elm.Name}</Link></p> })}
                                             </div>
                                         </div>
                                     </div>
@@ -91,9 +90,9 @@ function HomePage() {
                                 </div>
                                 <div className="flex-none ">
                                     <ul className="menu menu-horizontal p-0 font-extrabold text-xl text-black">
-                                        <li><Link  to="/"><img src="/images/Navbar/hom(1).png" className='h-7' alt="" />Home</Link></li>
-                                        <li><Link  to="/Services"><img src="/images/Navbar/services.png" className='h-7' alt="" />Services</Link></li>
-                                        <li><Link  to="/About"><img src="/images/Navbar/informatio_button.png" className='h-7' alt="" />About Us</Link></li>
+                                        <li><Link to="/"><img src="/images/Navbar/hom(1).png" className='h-7' alt="" />Home</Link></li>
+                                        <li><Link to="/Services"><img src="/images/Navbar/services.png" className='h-7' alt="" />Services</Link></li>
+                                        <li><Link to="/About"><img src="/images/Navbar/informatio_button.png" className='h-7' alt="" />About Us</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -119,29 +118,29 @@ function HomePage() {
                     <p className='text-center pt-7 font-extrabold' style={{ "color": "#ba4b2f", "fontSize": "48px", }}>Features</p>
                     <div className='flex justify-center flex-wrap'>
                         <div className='h-full p-10 ml-auto mr-auto'>
-                            <img src="/images/homeing/Sc1.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
+                            <img src="/images/homeing/Sc1.png" alt="" style={{ "height": "5pc", "alignSelf": "center", "marginLeft": "auto", "marginRight": "auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Easy Booking</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto'>
-                            <img src="/images/homeing/Sc2.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
+                            <img src="/images/homeing/Sc2.png" alt="" style={{ "height": "5pc", "alignSelf": "center", "marginLeft": "auto", "marginRight": "auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Modest Pricing</p>
                         </div>
                         <div className='h-full p-10 ml-auto mr-auto'>
-                            <img src="/images/homeing/Sc3.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
+                            <img src="/images/homeing/Sc3.png" alt="" style={{ "height": "5pc", "alignSelf": "center", "marginLeft": "auto", "marginRight": "auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Professional Team</p>
                         </div>
                     </div>
                     <div className='flex justify-center flex-wrap'>
                         <div className='h-full p-10 ml-auto mr-auto'>
-                            <img src="/images/homeing/Sc4.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
+                            <img src="/images/homeing/Sc4.png" alt="" style={{ "height": "5pc", "alignSelf": "center", "marginLeft": "auto", "marginRight": "auto" }} />
                             <p className='mt-7 text-xl font-extrabold text-center'>100% Assistance <br /> and Support</p>
                         </div>
                         <div className='alingment h-full p-10 ml-auto mr-auto lg:relative lg:right-5 md:static sm:static' >
-                            <img src="/images/homeing/Sc5.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
+                            <img src="/images/homeing/Sc5.png" alt="" style={{ "height": "5pc", "alignSelf": "center", "marginLeft": "auto", "marginRight": "auto" }} />
                             <p className='mt-7 text-xl font-extrabold'>Experienced Pandits</p>
                         </div>
                         <div className='alingment h-full p-10 ml-auto mr-auto lg:relative lg:right-3.5 md:static sm:static'>
-                            <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "5pc", "alignSelf": "center","marginLeft":"auto","marginRight":"auto" }} />
+                            <img src="/images/homeing/Sc6.png" alt="" style={{ "height": "5pc", "alignSelf": "center", "marginLeft": "auto", "marginRight": "auto" }} />
                             <p className='mt-7 text-xl font-extrabold width-auto'>Puntuality Promise</p>
                         </div>
                     </div>

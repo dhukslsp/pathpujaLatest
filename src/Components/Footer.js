@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 function Footer() {
     return (
-        <footer className="footer p-10 text-base-content bg-white">
+        <footer className="footer p-10 text-base-content bg-white border-t-2 border-black">
             <div>
                 <span className="footer-title font-extrabold text-black">Services</span>
                 <p className="cursor-default font-extrabold text-black">Puja</p>
