@@ -9,7 +9,7 @@ const Notestate = (props) => {
         setnotes([]);
     }
     const fetchallnotes = async (pujaname) => {
-        const response = await fetch(`http://43.205.168.224:5001/api/Retrieve/myroute1/` + pujaname.replaceAll("/"," or "), {
+        const response = await fetch(`https://www.pathpuja.com:5001/api/Retrieve/myroute1/` + pujaname.replaceAll("/"," or "), {
             method: 'GET'
         })
         const newjson = await response.json()
@@ -18,7 +18,7 @@ const Notestate = (props) => {
         //Logic for editing for the client
     }
     const save_CustData = async (obj) => {
-        const response = await fetch("http://43.205.168.224:5001/api/insert/CustDetSave", {
+        const response = await fetch("https://www.pathpuja.com:5001/api/insert/CustDetSave", {
             method: 'POST',
             body: JSON.stringify(obj),
             headers: {
@@ -29,7 +29,7 @@ const Notestate = (props) => {
         console.log(JSON.stringify(obj));
     }
     const cust_sendMail = async (obj) => {
-        const response = await fetch("http://43.205.168.224:5001/api/send/send_email", {
+        const response = await fetch("https://www.pathpuja.com:5001/api/send/send_email", {
             method: 'POST',
             body: JSON.stringify(obj),
             headers: {
@@ -39,18 +39,18 @@ const Notestate = (props) => {
         console.log(response.json());
     }
     const fetchPuja = async () => {
-        const response = await fetch("http://43.205.168.224:5001/api/Fetch/myroute1/fetchdetcUst", {
+        const response = await fetch("https://www.pathpuja.com:5001/api/Fetch/myroute1/fetchdetcUst", {
             method: 'get',
         })
         const newjson = await response.json()
         setcustdet(newjson);
     }
     const fetchdCustDet = async (id) => {
-        const response = await fetch('http://43.205.168.224:5001/api/Fetch/myroute1/fetchdetcUst/' + id, {
+        const response = await fetch('https://www.pathpuja.com:5001/api/Fetch/myroute1/fetchdetcUst/' + id, {
             method: 'post',
         })
         const newjson = await response.json();
-        const secondres = await fetch("http://43.205.168.224:5001/api/send/send_email1", {
+        const secondres = await fetch("https://www.pathpuja.com:5001/api/send/send_email1", {
             method: 'POST',
             body: JSON.stringify(newjson[0]),
             headers: {
