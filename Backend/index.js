@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 2001;
+const port = process.env.PORT || 5050;
 const connectToMongo = require("./db");
 const cors = require("cors");
 connectToMongo();
@@ -11,5 +11,5 @@ app.use("/api/Fetch", require("./RetrievePuja/FetchCustdet"));
 app.use("/api/insert", require("./RetrievePuja/CustumrDet"));
 app.use("/api/send", require("./SendEmail/mailsend"));
 app.listen(port, () => {
-    console.log('App listning to port 2001');
+    console.log(`App listning to port ${port}`);
 })
