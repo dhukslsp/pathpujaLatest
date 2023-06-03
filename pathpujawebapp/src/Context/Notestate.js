@@ -4,7 +4,7 @@ const Notestate = (props) => {
     const [first, setnotes] = useState([]);
     const [custdet, setcustdet] = useState([]);
     const [Packagedesc, chpackage] = useState();
-    const domailMain = "http://127.0.0.1:5050"
+    const domailMain = "https://pathpuja-latest.vercel.app"
     const [imglink,changeimg] = useState("");
     const SetnoteNull = ()=>{
         setnotes([]);
