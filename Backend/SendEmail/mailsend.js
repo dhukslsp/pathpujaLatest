@@ -22,8 +22,8 @@ const send_NotifyEmail = () => {
 
     }));
     var mailoperations = {
-        from: "pathpuja.com@gmail.com",
-        to: "pathpuja.com@gmail.com",
+        from: "dhruv1647.singh@gmail.com",
+        to: "dhruv1647.singh@gmail.com",
         subject: "PAYMENT CONFIRMAYTION REQUIRED!",
         template: "Notify",
     }
@@ -37,8 +37,8 @@ router.post("/send_email", async (req, res) => {
     var transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "pathpuja.com@gmail.com",
-            pass: "segnrjteqkjhakxz"
+            user: "dhruv1647.singh@gmail.com",
+            pass: "hfitxillxqqbwxdh"
         }
     });
     transporter.use('compile', handle({
@@ -52,7 +52,7 @@ router.post("/send_email", async (req, res) => {
 
     }));
     var mailoperations = {
-        from: "pathpuja.com@gmail.com",
+        from: "dhruv1647.singh@gmail.com",
         to: req.body.CusGmail,
         subject: "Regarding Puja Booking with Pathpuja",
         template: "main",
@@ -82,8 +82,8 @@ const send_Sakshammail = (fname,lname,CusAdress,CusGmail,phone,amt,packageName,p
     var transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "pathpuja.com@gmail.com",
-            pass: "segnrjteqkjhakxz"
+            user: "dhruv1647.singh@gmail.com",
+            pass: "hfitxillxqqbwxdh"
         }
     });
     transporter.use('compile', handle({
@@ -97,8 +97,8 @@ const send_Sakshammail = (fname,lname,CusAdress,CusGmail,phone,amt,packageName,p
 
     }));
     var mailoperations = {
-        from: "pathpuja.com@gmail.com",
-        to: "pathpuja.com@gmail.com",
+        from: "dhruv1647.singh@gmail.com",
+        to: "dhruv1647.singh@gmail.com",
         subject: "Hay! New Booking Confirmed",
         template: "RetailerConf",
         context: {
@@ -125,8 +125,8 @@ router.post("/send_email1", async (req, res) => {
     var transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "pathpuja.com@gmail.com",
-            pass: "segnrjteqkjhakxz"
+            user: "dhruv1647.singh@gmail.com",
+            pass: "hfitxillxqqbwxdh"
         }
     });
     transporter.use('compile', handle({
@@ -140,7 +140,7 @@ router.post("/send_email1", async (req, res) => {
 
     }));
     var mailoperations = {
-        from: "pathpuja.com@gmail.com",
+        from: "dhruv1647.singh@gmail.com",
         to: req.body.CusGmail,
         subject: "Congratulations!! Booking Confirmed.",
         template: "CustumerConfirm",
