@@ -7,8 +7,8 @@ const send_NotifyEmail = () => {
     var transporter = nodemailer.createTransport({
         service: "gmail",
         auth: {
-            user: "pathpuja.com@gmail.com",
-            pass: "segnrjteqkjhakxz"
+            user: "dhruv1647.singh@gmail.com",
+            pass: "hfitxillxqqbwxdh"
         }
     });
     transporter.use('compile', handle({
